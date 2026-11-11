@@ -56,7 +56,9 @@ h1 { margin: 28px 0 8px; font-size: clamp(32px, 5vw, 56px); line-height: 1.04; f
 /* The film chooser. A few films: one divided bar above the film. More: a list
    in a box in the words' column. Both are labels of one radio group, so the
    page switches films without its script. */
-.pick { position: absolute; opacity: 0; pointer-events: none; }
+/* The radios stay fixed in the window, so the browser never scrolls to the
+   one a click picks: at the top of a long feature, it jumped the page up. */
+.pick { position: fixed; top: 0; left: 0; width: 1px; height: 1px; margin: 0; opacity: 0; pointer-events: none; }
 .bar { display: flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; margin-bottom: 10px; background: var(--panel); }
 .bar label { flex: 1 1 0; min-width: 0; text-align: center; font-size: 13px; font-weight: 600; color: var(--dim); padding: 7px 10px; border-left: 1px solid var(--line); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; }
 .bar label:first-child { border-left: 0; }
