@@ -58,7 +58,7 @@ h1 { margin: 28px 0 8px; font-size: clamp(32px, 5vw, 56px); line-height: 1.04; f
 .about { margin: 0 0 18px; color: var(--muted); font-size: 15px; }
 .feature h3 { margin: 0 0 8px; font-size: 12px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
 .keys { list-style: none; margin: 0 0 16px; padding: 0; display: grid; gap: 7px; }
-.keys li { display: grid; grid-template-columns: 92px minmax(0, 1fr); gap: 10px; align-items: baseline; font-size: 14px; color: var(--muted); }
+.keys li { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 10px; align-items: baseline; font-size: 14px; color: var(--muted); }
 .keys .caps { display: flex; flex-wrap: wrap; gap: 3px; }
 kbd { font: 600 11.5px var(--mono); color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 4px; padding: 1px 6px; white-space: nowrap; }
 .more { font-size: 14px; color: var(--ink); text-underline-offset: 3px; }
