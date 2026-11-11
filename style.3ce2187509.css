@@ -42,10 +42,6 @@ a { color: inherit; }
 .page { max-width: 1480px; margin: 0 auto; padding: 36px var(--gutter) 56px; }
 .top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .brand { font-family: var(--pixel); font-size: 13px; letter-spacing: .14em; color: var(--signal); text-transform: uppercase; white-space: nowrap; }
-.tabs { display: flex; gap: 4px; }
-.tabs a { font-size: 14px; font-weight: 650; color: var(--dim); padding: 5px 13px; border-radius: 999px; border: 1px solid transparent; text-decoration: none; white-space: nowrap; }
-.tabs a:hover { color: var(--ink); }
-.tabs a[aria-current] { color: var(--ink); border-color: var(--line); background: var(--panel); }
 
 h1 { margin: 28px 0 8px; font-size: clamp(32px, 5vw, 56px); line-height: 1.04; font-weight: 800; letter-spacing: -.01em; }
 .lede { margin: 0 0 28px; max-width: 760px; color: var(--muted); font-size: 18px; }
@@ -56,7 +52,6 @@ h1 { margin: 28px 0 8px; font-size: clamp(32px, 5vw, 56px); line-height: 1.04; f
 .feature h2 { margin: 4px 0 10px; font-size: 28px; line-height: 1.15; font-weight: 800; }
 .what { margin: 0 0 10px; color: var(--ink); font-size: 17px; font-weight: 600; line-height: 1.45; }
 .about { margin: 0 0 18px; color: var(--muted); font-size: 16px; }
-.more { font-size: 14px; color: var(--ink); text-underline-offset: 3px; }
 
 /* The film chooser. A few films: one divided bar above the film. More: a list
    in a box in the words' column. Both are labels of one radio group, so the
@@ -85,7 +80,6 @@ h1 { margin: 28px 0 8px; font-size: clamp(32px, 5vw, 56px); line-height: 1.04; f
 .note { margin-top: 28px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 13px; color: var(--dim); }
 
 @media (max-width: 899px) {
-  .top { flex-direction: column; align-items: flex-start; gap: 12px; }
   .feature { display: block; padding: 28px 0; }
   .bar, .list { margin-top: 14px; }
   /* Film names too long to share a row stand as one even column. */
