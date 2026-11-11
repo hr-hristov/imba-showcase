@@ -14,1154 +14,800 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="data:,">
-<link rel="stylesheet" href="style.5c16d9fe68.css">
+<link rel="stylesheet" href="style.1191cdf6d9.css">
 </head>
 <body>
-<main class="page">
-  <div class="top"><span class="brand">imba / showcase</span></div>
+<div class="layout">
+<nav class="rail" aria-label="Contents">
+  <div class="rail-head">Contents</div>
+<div class="part-links"><a class="part-link" href="#part-1">Run agents</a><ol><li><a href="#spawns" data-id="spawns"><span>01</span>Spawns</a></li><li><a href="#ultrafocus" data-id="ultrafocus"><span>02</span>Ultrafocus</a></li><li><a href="#editor-area" data-id="editor-area"><span>03</span>Editor area</a></li><li><a href="#pins" data-id="pins"><span>04</span>Pins</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-2">Check their work</a><ol><li><a href="#plans" data-id="plans"><span>05</span>Plans</a></li><li><a href="#proofs" data-id="proofs"><span>06</span>Proofs</a></li><li><a href="#feedback-mode" data-id="feedback-mode"><span>07</span>Feedback mode</a></li><li><a href="#reviews" data-id="reviews"><span>08</span>Reviews</a></li><li><a href="#cards" data-id="cards"><span>09</span>Cards</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-3">Agents working together</a><ol><li><a href="#loops" data-id="loops"><span>10</span>Loops</a></li><li><a href="#groups-and-organisations" data-id="groups-and-organisations"><span>11</span>Groups and Organisations</a></li><li><a href="#orchestration" data-id="orchestration"><span>12</span>Orchestration</a></li><li><a href="#software-factory" data-id="software-factory"><span>13</span>Software factory</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-4">Work that waits or starts by itself</a><ol><li><a href="#tasks" data-id="tasks"><span>14</span>Tasks</a></li><li><a href="#routines-triggers-and-automations" data-id="routines-triggers-and-automations"><span>15</span>Routines, triggers and automations</a></li><li><a href="#alarms" data-id="alarms"><span>16</span>Alarms</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-5">Your repositories</a><ol><li><a href="#commit-graph" data-id="commit-graph"><span>17</span>Commit graph</a></li><li><a href="#repo-map" data-id="repo-map"><span>18</span>Repo map</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-6">Logins and machines</a><ol><li><a href="#accounts" data-id="accounts"><span>19</span>Accounts</a></li><li><a href="#machine-browser" data-id="machine-browser"><span>20</span>Machine browser</a></li><li><a href="#support-machines" data-id="support-machines"><span>21</span>Support machines</a></li><li><a href="#machine-panels" data-id="machine-panels"><span>22</span>Machine panels</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-7">Away from the desk</a><ol><li><a href="#pen" data-id="pen"><span>23</span>Pen</a></li><li><a href="#every-screen" data-id="every-screen"><span>24</span>Every screen</a></li><li><a href="#out-of-office" data-id="out-of-office"><span>25</span>Out of Office</a></li></ol></div>
+  <a class="part-link" href="#words">Words on this page</a>
+</nav>
+<main>
+<header class="hero" id="top">
+  <span class="brand">imba / showcase</span>
   <h1>What imba does</h1>
-  <p class="lede">imba runs AI coding agents on your own computer and keeps you in charge of them. Here are its 25 main features, each explained in plain words with a film of it at work.</p>
-  <section class="intro" aria-label="About imba">
-    <div class="intro-words"><p>imba is a control room for AI coding agents. You run it on your own computer, open it in a browser or in its apps, and start agents such as Claude Code and Codex on your projects. Each agent works on its own task, and imba shows you which ones are working, which are waiting for an answer from you, and what each one changed.</p><p>The point is to stay in charge without watching every step. Agents write a plan before larger work, come back with proof such as films and screenshots, and have their work reviewed, so you check results instead of reading code line by line.</p><p>This page walks through 25 features in the order you would meet them, from starting your first agent to leaving work running while you are away.</p></div>
-    <nav class="contents" aria-label="Contents">
-      <h2>Contents</h2>
-      <div class="group"><h3>Run agents</h3><ol><li><a href="#spawns"><span>01</span>Spawns</a></li><li><a href="#ultrafocus"><span>02</span>Ultrafocus</a></li><li><a href="#editor-area"><span>03</span>Editor area</a></li></ol></div>
-      <div class="group"><h3>Check their work</h3><ol><li><a href="#plans"><span>04</span>Plans</a></li><li><a href="#proofs"><span>05</span>Proofs</a></li><li><a href="#feedback-mode"><span>06</span>Feedback mode</a></li><li><a href="#reviews"><span>07</span>Reviews</a></li><li><a href="#cards"><span>08</span>Cards</a></li><li><a href="#pins"><span>09</span>Pins</a></li></ol></div>
-      <div class="group"><h3>Agents working together</h3><ol><li><a href="#loops"><span>10</span>Loops</a></li><li><a href="#groups-and-organisations"><span>11</span>Groups and Organisations</a></li><li><a href="#orchestration"><span>12</span>Orchestration</a></li><li><a href="#software-factory"><span>13</span>Software factory</a></li></ol></div>
-      <div class="group"><h3>Work that starts by itself</h3><ol><li><a href="#routines-triggers-and-automations"><span>14</span>Routines, triggers and automations</a></li></ol></div>
-      <div class="group"><h3>Logins and machines</h3><ol><li><a href="#accounts"><span>15</span>Accounts</a></li><li><a href="#machine-browser"><span>16</span>Machine browser</a></li><li><a href="#support-machines"><span>17</span>Support machines</a></li><li><a href="#machine-panels"><span>18</span>Machine panels</a></li></ol></div>
-      <div class="group"><h3>Other ways in</h3><ol><li><a href="#pen"><span>19</span>Pen</a></li><li><a href="#every-screen"><span>20</span>Every screen</a></li></ol></div>
-      <div class="group"><h3>Everyday work</h3><ol><li><a href="#alarms"><span>21</span>Alarms</a></li><li><a href="#tasks"><span>22</span>Tasks</a></li><li><a href="#commit-graph"><span>23</span>Commit graph</a></li><li><a href="#repo-map"><span>24</span>Repo map</a></li><li><a href="#out-of-office"><span>25</span>Out of Office</a></li></ol></div>
-    </nav>
-  </section>
-  <section class="legend" aria-label="How to read this page">
-    <div class="reading">
-      <h2>How to read a feature</h2>
-      <ol><li><b>Number and name</b><span>Where the feature sits among the 25.</span></li><li><b>One line in bold</b><span>What the feature gives you.</span></li><li><b>The paragraph</b><span>How it works and when you would use it.</span></li><li><b>The films</b><span>One for each way of using it. Pick one by its name, then press play.</span></li><li><b>Under each film</b><span>Its title, its length and the steps it shows, in order.</span></li></ol>
-      <p class="films-note">The films have no sound and play at real speed. They were recorded in imba working on a made-up online shop, so every agent, project and person in them is invented.</p>
-    </div>
-    <div class="words-list">
-      <h2>Words on this page</h2>
-      <dl><div><dt>Agent</dt><dd>An AI program that writes and changes code by itself when you give it a task.</dd></div><div><dt>Claude Code</dt><dd>Anthropic&#39;s coding agent.</dd></div><div><dt>Codex</dt><dd>OpenAI&#39;s coding agent.</dd></div><div><dt>Spawn</dt><dd>One agent working on one task in imba, with its own conversation.</dd></div><div><dt>Repository</dt><dd>A project&#39;s folder of code, kept with its whole history.</dd></div><div><dt>Turn</dt><dd>One round of work: you send a message, the agent works, then it answers.</dd></div><div><dt>Plan</dt><dd>What the agent means to do, written down for you to approve before it starts.</dd></div><div><dt>Mock</dt><dd>A drawing of a screen before it is built.</dd></div><div><dt>Card</dt><dd>A result drawn as a picture or a table in the conversation, such as a review.</dd></div><div><dt>Pin</dt><dd>A file, page or terminal kept one tap away above where you write.</dd></div><div><dt>Branch and worktree</dt><dd>A separate line of work in a repository, in a folder of its own, so agents do not get in each other&#39;s way.</dd></div><div><dt>Login</dt><dd>A Claude or ChatGPT subscription that agents run under.</dd></div><div><dt>Container</dt><dd>A program, such as a database or a test run, kept in a box of its own by Docker.</dd></div><div><dt>Alarm</dt><dd>A warning from a monitoring tool such as Grafana that something in the running shop is wrong.</dd></div></dl>
-    </div>
-  </section>
-  <section class="feature" id="spawns">
+  <p class="lede">imba runs AI coding agents on your own computer and keeps you in charge of them. Here are its 25 main features in 7 parts, each explained in plain words with films of it at work.</p>
+  <p class="intro">imba is a control room for AI coding agents. You run it on your own computer, open it in a browser or in its apps, and start agents such as Claude Code and Codex on your projects. Each agent works on its own task, and imba shows you which ones are working, which are waiting for an answer from you, and what each one changed.</p>
+  <p class="intro">The point is to stay in charge without watching every step. Agents write a plan before larger work, come back with proof such as films and screenshots, and have their work reviewed, so you check results instead of reading code line by line.</p>
+</header>
+<section class="legend" aria-label="How to read a feature">
+  <h2>How to read a feature</h2>
+  <ol class="strip"><li><span class="cell-n">1</span><b>Number and name</b><span>Where the feature sits among the 25.</span></li><li><span class="cell-n">2</span><b>Line in bold</b><span>What the feature gives you.</span></li><li><span class="cell-n">3</span><b>Paragraph</b><span>How it works and when you would use it.</span></li><li><span class="cell-n">4</span><b>Films</b><span>One for each way of using it. Pick one by its name and press play. Its steps are listed under it.</span></li></ol>
+  <p class="films-note">The films have no sound and play at real speed. They were recorded in imba working on a made-up online shop, so every agent, project and person in them is invented. The <a href="#words">words on this page</a> are explained at the end.</p>
+</section>
+<details class="toc">
+  <summary>Contents</summary>
+<div class="part-links"><a class="part-link" href="#part-1">Run agents</a><ol><li><a href="#spawns" data-id="spawns"><span>01</span>Spawns</a></li><li><a href="#ultrafocus" data-id="ultrafocus"><span>02</span>Ultrafocus</a></li><li><a href="#editor-area" data-id="editor-area"><span>03</span>Editor area</a></li><li><a href="#pins" data-id="pins"><span>04</span>Pins</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-2">Check their work</a><ol><li><a href="#plans" data-id="plans"><span>05</span>Plans</a></li><li><a href="#proofs" data-id="proofs"><span>06</span>Proofs</a></li><li><a href="#feedback-mode" data-id="feedback-mode"><span>07</span>Feedback mode</a></li><li><a href="#reviews" data-id="reviews"><span>08</span>Reviews</a></li><li><a href="#cards" data-id="cards"><span>09</span>Cards</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-3">Agents working together</a><ol><li><a href="#loops" data-id="loops"><span>10</span>Loops</a></li><li><a href="#groups-and-organisations" data-id="groups-and-organisations"><span>11</span>Groups and Organisations</a></li><li><a href="#orchestration" data-id="orchestration"><span>12</span>Orchestration</a></li><li><a href="#software-factory" data-id="software-factory"><span>13</span>Software factory</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-4">Work that waits or starts by itself</a><ol><li><a href="#tasks" data-id="tasks"><span>14</span>Tasks</a></li><li><a href="#routines-triggers-and-automations" data-id="routines-triggers-and-automations"><span>15</span>Routines, triggers and automations</a></li><li><a href="#alarms" data-id="alarms"><span>16</span>Alarms</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-5">Your repositories</a><ol><li><a href="#commit-graph" data-id="commit-graph"><span>17</span>Commit graph</a></li><li><a href="#repo-map" data-id="repo-map"><span>18</span>Repo map</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-6">Logins and machines</a><ol><li><a href="#accounts" data-id="accounts"><span>19</span>Accounts</a></li><li><a href="#machine-browser" data-id="machine-browser"><span>20</span>Machine browser</a></li><li><a href="#support-machines" data-id="support-machines"><span>21</span>Support machines</a></li><li><a href="#machine-panels" data-id="machine-panels"><span>22</span>Machine panels</a></li></ol></div>
+<div class="part-links"><a class="part-link" href="#part-7">Away from the desk</a><ol><li><a href="#pen" data-id="pen"><span>23</span>Pen</a></li><li><a href="#every-screen" data-id="every-screen"><span>24</span>Every screen</a></li><li><a href="#out-of-office" data-id="out-of-office"><span>25</span>Out of Office</a></li></ol></div>
+  <a class="part-link" href="#words">Words on this page</a>
+</details>
+<section class="chapter" id="part-1">
+  <header class="chapter-head">
+    <div class="part">Part 1 of 7</div>
+    <h2>Run agents</h2>
+    <p>Start agents, see which ones need you, and work with one of them at a time.</p>
+  </header>
+  <article class="feature" id="spawns">
     <input class="pick" type="radio" name="spawns" id="spawns-0" data-i="0" checked aria-label="Start a Claude Code spawn"><input class="pick" type="radio" name="spawns" id="spawns-1" data-i="1" aria-label="Start a Codex spawn"><input class="pick" type="radio" name="spawns" id="spawns-2" data-i="2" aria-label="Hand a spawn to the other agent">
-    <div class="words">
-      <div class="num">01 / 25<span>Run agents</span></div>
-      <h2>Spawns</h2>
-      <p class="what">Run Claude Code and Codex agents side by side on your own machine, each in its own row with its state.</p>
-      <p class="about">A spawn is one agent at work: Claude Code or Codex, running in one repository on your own machine. Each one sits in its own row under its repository, and its light says whether it is working, waiting on you, holding a plan or done. You start one from the New spawn form with its agent, model and effort, and a spawn can be handed to the other agent with its conversation carried over.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="spawns-0" data-i="0">Start a Claude Code spawn</label><label for="spawns-1" data-i="1">Start a Codex spawn</label><label for="spawns-2" data-i="2">Hand a spawn to the other agent</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/spawns--claude-code.b778ac3f82.jpg" src="films/spawns--claude-code.55302e8245.mp4" aria-label="N on the shop-api group opens New spawn, Claude with Sonnet at XHigh is picked, the gift card message is typed, and Ctrl+S starts a spawn that joins shop-api working."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Start a Claude Code spawn</b><span>0:21</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>New spawn</li><li>Agent and model</li><li>First message</li><li>Working under shop-api</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/spawns--codex.b0647ab491.jpg" src="films/spawns--codex.fdd7d3d183.mp4" aria-label="The same New spawn form switched to Codex with Ctrl+T starts a second shop-api spawn, and both work side by side."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Start a Codex spawn</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>New spawn</li><li>Switch to Codex</li><li>First message</li><li>Both working</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/spawns--hand-over.13ec916da4.jpg" src="films/spawns--hand-over.b587ded65e.mp4" aria-label="Shift+N on a Claude Code spawn opens its clone choices, H hands the work to Codex, and the Codex spawn carries on in the same folder with the conversation written out for it."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Hand a spawn to the other agent</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Claude Code spawn</li><li>Clone or hand over</li><li>Hand over to Codex</li><li>Codex takes over</li><li>Carries on</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="ultrafocus">
+    <div class="num">01 / 25</div>
+    <h3>Spawns</h3>
+    <p class="what">Run Claude Code and Codex agents side by side on your own machine, each in its own row with its state.</p>
+    <p class="about">A spawn is one agent at work: Claude Code or Codex, running in one repository on your own machine. Each one sits in its own row under its repository, and its light says whether it is working, waiting on you, holding a plan or done. You start one from the New spawn form with its agent, model and effort, and a spawn can be handed to the other agent with its conversation carried over.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="spawns-0" data-i="0">Start a Claude Code spawn</label><label for="spawns-1" data-i="1">Start a Codex spawn</label><label for="spawns-2" data-i="2">Hand a spawn to the other agent</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/spawns--claude-code.b778ac3f82.jpg" src="films/spawns--claude-code.55302e8245.mp4" aria-label="N on the shop-api group opens New spawn, Claude with Sonnet at XHigh is picked, the gift card message is typed, and Ctrl+S starts a spawn that joins shop-api working."></video>
+      <figcaption><b>Start a Claude Code spawn</b><span>0:21</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>New spawn</li><li>Agent and model</li><li>First message</li><li>Working under shop-api</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/spawns--codex.b0647ab491.jpg" src="films/spawns--codex.fdd7d3d183.mp4" aria-label="The same New spawn form switched to Codex with Ctrl+T starts a second shop-api spawn, and both work side by side."></video>
+      <figcaption><b>Start a Codex spawn</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>New spawn</li><li>Switch to Codex</li><li>First message</li><li>Both working</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/spawns--hand-over.13ec916da4.jpg" src="films/spawns--hand-over.b587ded65e.mp4" aria-label="Shift+N on a Claude Code spawn opens its clone choices, H hands the work to Codex, and the Codex spawn carries on in the same folder with the conversation written out for it."></video>
+      <figcaption><b>Hand a spawn to the other agent</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Claude Code spawn</li><li>Clone or hand over</li><li>Hand over to Codex</li><li>Codex takes over</li><li>Carries on</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="ultrafocus">
     <input class="pick" type="radio" name="ultrafocus" id="ultrafocus-0" data-i="0" checked aria-label="The proof, not the essay"><input class="pick" type="radio" name="ultrafocus" id="ultrafocus-1" data-i="1" aria-label="Press 1, answer, back"><input class="pick" type="radio" name="ultrafocus" id="ultrafocus-2" data-i="2" aria-label="New work joins the line"><input class="pick" type="radio" name="ultrafocus" id="ultrafocus-3" data-i="3" aria-label="Nothing waiting. Start the next">
-    <div class="words">
-      <div class="num">02 / 25<span>Run agents</span></div>
-      <h2>Ultrafocus</h2>
-      <p class="what">Clear the screen down to the spawns waiting on you, and reach each one by its number.</p>
-      <p class="about">Ultrafocus clears the screen down to the spawns that are waiting on you, numbered in the order they started waiting. You open one, read the proof it brought back, answer, and you are back on the list. When nothing waits, it lists each repository with the tasks queued for it, so you can pick the next piece of work straight away.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="ultrafocus-0" data-i="0">The proof, not the essay</label><label for="ultrafocus-1" data-i="1">Press 1, answer, back</label><label for="ultrafocus-2" data-i="2">New work joins the line</label><label for="ultrafocus-3" data-i="3">Nothing waiting. Start the next</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/ultrafocus--the-proof-not-the-essay.a593c3dca5.jpg" src="films/ultrafocus--the-proof-not-the-essay.8f5f8de16b.mp4" aria-label="A reply in imba drawn as its two pictures of a refund email, with its words folded away"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The proof, not the essay</b><span>0:14</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Open 1</li><li>The words</li><li>Back to work</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/ultrafocus--press-1-answer-back.976de6dcfe.jpg" src="films/ultrafocus--press-1-answer-back.568784b612.mp4" aria-label="A finished migration opened from Ultrafocus in imba, with its result under the request"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Press 1, answer, back</b><span>0:22</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Open 1</li><li>Done</li><li>Back</li><li>1 again</li><li>Four left</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/ultrafocus--new-work-joins-the-line.61621abcd6.jpg" src="films/ultrafocus--new-work-joins-the-line.3c8d4fef70.mp4" aria-label="Ultrafocus in imba with a fifth spawn joining the search group, lit, behind the one that waited longer"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>New work joins the line</b><span>0:12</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Four waiting</li><li>One joins</li></ol>
-      </figure>
-      <figure class="film" data-i="3">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/ultrafocus--nothing-waiting-start-the-next.cc9b3ca7d6.jpg" src="films/ultrafocus--nothing-waiting-start-the-next.0dee6a251c.mp4" aria-label="Ultrafocus in imba with nothing waiting: New lists each repository and the tasks queued for it, numbered"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Nothing waiting. Start the next</b><span>0:16</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The last one</li><li>Done</li><li>New</li><li>Start the next</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="editor-area">
+    <div class="num">02 / 25</div>
+    <h3>Ultrafocus</h3>
+    <p class="what">Clear the screen down to the spawns waiting on you, and reach each one by its number.</p>
+    <p class="about">Ultrafocus clears the screen down to the spawns that are waiting on you, numbered in the order they started waiting. You open one, read the proof it brought back, answer, and you are back on the list. When nothing waits, it lists each repository with the tasks queued for it, so you can pick the next piece of work straight away.</p>
+    <p class="films-head">4 films</p>
+    <div class="list" role="presentation"><label for="ultrafocus-0" data-i="0">The proof, not the essay</label><label for="ultrafocus-1" data-i="1">Press 1, answer, back</label><label for="ultrafocus-2" data-i="2">New work joins the line</label><label for="ultrafocus-3" data-i="3">Nothing waiting. Start the next</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/ultrafocus--the-proof-not-the-essay.a593c3dca5.jpg" src="films/ultrafocus--the-proof-not-the-essay.8f5f8de16b.mp4" aria-label="A reply in imba drawn as its two pictures of a refund email, with its words folded away"></video>
+      <figcaption><b>The proof, not the essay</b><span>0:14</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Open 1</li><li>The words</li><li>Back to work</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/ultrafocus--press-1-answer-back.976de6dcfe.jpg" src="films/ultrafocus--press-1-answer-back.568784b612.mp4" aria-label="A finished migration opened from Ultrafocus in imba, with its result under the request"></video>
+      <figcaption><b>Press 1, answer, back</b><span>0:22</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Open 1</li><li>Done</li><li>Back</li><li>1 again</li><li>Four left</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/ultrafocus--new-work-joins-the-line.61621abcd6.jpg" src="films/ultrafocus--new-work-joins-the-line.3c8d4fef70.mp4" aria-label="Ultrafocus in imba with a fifth spawn joining the search group, lit, behind the one that waited longer"></video>
+      <figcaption><b>New work joins the line</b><span>0:12</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Four waiting</li><li>One joins</li></ol>
+    </figure>
+    <figure class="film" data-i="3">
+      <video controls playsinline muted preload="none" poster="films/ultrafocus--nothing-waiting-start-the-next.cc9b3ca7d6.jpg" src="films/ultrafocus--nothing-waiting-start-the-next.0dee6a251c.mp4" aria-label="Ultrafocus in imba with nothing waiting: New lists each repository and the tasks queued for it, numbered"></video>
+      <figcaption><b>Nothing waiting. Start the next</b><span>0:16</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The last one</li><li>Done</li><li>New</li><li>Start the next</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="editor-area">
     <input class="pick" type="radio" name="editor-area" id="editor-area-0" data-i="0" checked aria-label="Weight is what stands on it"><input class="pick" type="radio" name="editor-area" id="editor-area-1" data-i="1" aria-label="The map shows who calls it"><input class="pick" type="radio" name="editor-area" id="editor-area-2" data-i="2" aria-label="The Log keeps every turn"><input class="pick" type="radio" name="editor-area" id="editor-area-3" data-i="3" aria-label="One file, for the question left"><input class="pick" type="radio" name="editor-area" id="editor-area-4" data-i="4" aria-label="The State card"><input class="pick" type="radio" name="editor-area" id="editor-area-5" data-i="5" aria-label="Explain"><input class="pick" type="radio" name="editor-area" id="editor-area-6" data-i="6" aria-label="Map"><input class="pick" type="radio" name="editor-area" id="editor-area-7" data-i="7" aria-label="Steer a running turn"><input class="pick" type="radio" name="editor-area" id="editor-area-8" data-i="8" aria-label="Stash and commands">
-    <div class="words">
-      <div class="num">03 / 25<span>Run agents</span></div>
-      <h2>Editor area</h2>
-      <p class="what">Everything about one spawn in one place: its conversation, the writing area you talk to it from, what it changed, its plan, its log and where it stands.</p>
-      <p class="about">Opening a spawn shows everything about it in one place. The conversation shows each turn with the cards it ended on, and the State card says what is done and what is left. The writing area under it sends your next message, steers a turn that is still running, or stashes a draft for later. The Explain, Map and Log views show what a turn changed and what the change touches.</p>
-      <div class="list" role="presentation"><label for="editor-area-0" data-i="0">Weight is what stands on it</label><label for="editor-area-1" data-i="1">The map shows who calls it</label><label for="editor-area-2" data-i="2">The Log keeps every turn</label><label for="editor-area-3" data-i="3">One file, for the question left</label><label for="editor-area-4" data-i="4">The State card</label><label for="editor-area-5" data-i="5">Explain</label><label for="editor-area-6" data-i="6">Map</label><label for="editor-area-7" data-i="7">Steer a running turn</label><label for="editor-area-8" data-i="8">Stash and commands</label></div>
-    </div>
-    <div class="films">
-      
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--the-map.51a7db4743.jpg" src="films/editor-area--the-map.406c9ba29d.mp4" aria-label="imba&#39;s map of a shop&#39;s codebase with one turn on it: a five-line change in src/money tied into amber folders across the shop"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Weight is what stands on it</b><span>0:11</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The Edits line</li><li>The map</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--what-stands-on-it.8120081b8c.jpg" src="films/editor-area--what-stands-on-it.1ad056a734.mp4" aria-label="imba&#39;s map of the src/money folder, round.ts beside the 21 files that call what changed"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The map shows who calls it</b><span>0:12</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The map</li><li>Open src/money</li><li>Back</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--the-log.7736aca4b0.jpg" src="films/editor-area--the-log.8d8e0f10cb.mp4" aria-label="imba&#39;s Log of the gift card spawn in two chapters, with the turn that settled the rounding open"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The Log keeps every turn</b><span>0:11</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The Log</li><li>Open 4</li></ol>
-      </figure>
-      <figure class="film" data-i="3">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--the-files.fb4c1bc575.jpg" src="films/editor-area--the-files.5764426e2b.mp4" aria-label="imba&#39;s Edits box with its folders and files brought back, then the diff of round.ts, where half a cent now goes to the even cent"></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>One file, for the question left</b><span>0:22</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Put away</li><li>The files</li><li>Open src/money</li><li>Open round.ts</li><li>Back</li><li>Away again</li></ol>
-      </figure>
-      <figure class="film" data-i="4">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--state-card.3097f7eee8.jpg" src="films/editor-area--state-card.704e19f201.mp4" aria-label="Each turn of the gift card spawn ends with its State card, whose track moves from Building to Built to Ready, and C opens it to show the goal, what is done and what is left."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The State card</b><span>0:29</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Agent at work</li><li>Building</li><li>Done and left</li><li>Built</li><li>Ready</li></ol>
-      </figure>
-      <figure class="film" data-i="5">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--explain.591c379ddd.jpg" src="films/editor-area--explain.8c3d1b18f4.mp4" aria-label="E opens the turn&#39;s change story, and N steps through its scenes, each a drawing of the code with the real diff lines under it."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Explain</b><span>0:21</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The turn</li><li>Open Explain</li><li>Scene by scene</li><li>Back to the turn</li></ol>
-      </figure>
-      <figure class="film" data-i="6">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--map.235fbdd7e3.jpg" src="films/editor-area--map.4414ae52a5.mp4" aria-label="R draws the repository as a map with the changed folders in green and the code that uses them in amber, and a folder&#39;s number opens it to show what changed there and what calls it."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Map</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The turn</li><li>The map</li><li>Into a folder</li><li>Back out</li></ol>
-      </figure>
-      <figure class="film" data-i="7">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--steer.b9a7e05eda.jpg" src="films/editor-area--steer.5ef2ed05f4.mp4" aria-label="While the agent works, / opens the writing area, &quot;Show the balance under the code field&quot; goes in, and Ctrl+S steers the running turn without stopping it."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Steer a running turn</b><span>0:18</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Agent at work</li><li>Write</li><li>Steer</li><li>It answers</li></ol>
-      </figure>
-      <figure class="film" data-i="8">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/editor-area--stash.4adeb06c15.jpg" src="films/editor-area--stash.6eb797af28.mp4" aria-label="Ctrl+T stashes a half-written message, Ctrl+K puts /r in its place and sends a review, and Ctrl+R brings the stashed message back."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Stash and commands</b><span>0:27</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Half written</li><li>Stash it</li><li>Insert /r</li><li>Review runs</li><li>Draft back</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="plans">
-    <input class="pick" type="radio" name="plans" id="plans-0" data-i="0" checked aria-label="Comment and send back"><input class="pick" type="radio" name="plans" id="plans-1" data-i="1" aria-label="Approve a plan carrying a mock">
-    <div class="words">
-      <div class="num">04 / 25<span>Check their work</span></div>
-      <h2>Plans</h2>
-      <p class="what">Read an agent&#39;s plan before it builds, comment on any line, send it back, and approve it only when it is right.</p>
-      <p class="about">Before a spawn builds anything larger, it writes a plan, and its row turns blue. You read the plan in imba, put a note on any line and send it back, and the agent answers with a new version. When the plan is right, you approve it and the agent starts building. A plan for a screen carries a mock of that screen at phone and desktop width.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="plans-0" data-i="0">Comment and send back</label><label for="plans-1" data-i="1">Approve a plan carrying a mock</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/plans--send-back.725c5ce8fc.jpg" src="films/plans--send-back.a0c8651bc8.mp4" aria-label="The plan for migrating the orders table opens from its blue row, the note &quot;Do it in batches of 1,000, the table has 4 million rows&quot; goes on the line that copies every row at once, I sends it back, and the plan returns with that line rewritten."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Comment and send back</b><span>0:30</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Plan waiting</li><li>Open the plan</li><li>Note on a line</li><li>Send it back</li><li>Line rewritten</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/plans--approve-mock.1eed9105a7.jpg" src="films/plans--approve-mock.32ff42f723.mp4" aria-label="The gift card balance plan opens with its mock of the checkout drawn at phone and desktop width, P approves it, and the spawn goes to work writing the files."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Approve a plan carrying a mock</b><span>0:23</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Plan waiting</li><li>Open the plan</li><li>The mock</li><li>Approve</li><li>Building</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="proofs">
-    <input class="pick" type="radio" name="proofs" id="proofs-0" data-i="0" checked aria-label="A UI demo film"><input class="pick" type="radio" name="proofs" id="proofs-1" data-i="1" aria-label="Before and after screenshots"><input class="pick" type="radio" name="proofs" id="proofs-2" data-i="2" aria-label="A manual test">
-    <div class="words">
-      <div class="num">05 / 25<span>Check their work</span></div>
-      <h2>Proofs</h2>
-      <p class="what">Every finished change comes back with proof you can see, never only a claim.</p>
-      <p class="about">A finished change comes back with proof you can look at, not only the agent&#39;s word. The proof can be a film of the feature being used at real speed, before and after screenshots of the screen it changed, or a manual test report with one finding per fault. Each opens straight from the card it came on, beside the conversation.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="proofs-0" data-i="0">A UI demo film</label><label for="proofs-1" data-i="1">Before and after screenshots</label><label for="proofs-2" data-i="2">A manual test</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/proofs--ui-demo.6c6d6f9550.jpg" src="films/proofs--ui-demo.16cfdf0f27.mp4" aria-label="The spawn that built the gift card balance hands back a film of a shopper paying with a gift card, and one press plays it beside the conversation at real speed."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A UI demo film</b><span>0:15</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The films card</li><li>Play the film</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/proofs--screenshots.52cae6c3e5.jpg" src="films/proofs--screenshots.6e699f74fa.mp4" aria-label="The spawn hands back the checkout before the gift card balance came onto it beside the checkout after, and one press opens the after picture full size."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Before and after screenshots</b><span>0:11</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Before and after</li><li>Open the after</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/proofs--manual-test.6b11131d29.jpg" src="films/proofs--manual-test.70f4e7356d.mp4" aria-label="The spawn clicked through the checkout at phone and desktop width and hands back a test report with two faults, each with the frame it was seen in, and one press opens a fault&#39;s frame."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A manual test</b><span>0:14</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The test report</li><li>Open a fault</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="feedback-mode">
-    <input class="pick" type="radio" name="feedback-mode" id="feedback-mode-0" data-i="0" checked aria-label="On a screenshot"><input class="pick" type="radio" name="feedback-mode" id="feedback-mode-1" data-i="1" aria-label="On a markdown file"><input class="pick" type="radio" name="feedback-mode" id="feedback-mode-2" data-i="2" aria-label="On an HTML page">
-    <div class="words">
-      <div class="num">06 / 25<span>Check their work</span></div>
-      <h2>Feedback mode</h2>
-      <p class="what">Point at what is wrong on a picture, a markdown file or an HTML page, and the note goes back to the agent with it.</p>
-      <p class="about">Feedback mode lets you point at the thing that is wrong instead of describing it. Turn it on over a screenshot, a markdown file or an HTML page, draw a box or pick a paragraph, and type a note. The notes go to the agent together with the picture or the text they are about, and the agent&#39;s next version answers them.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="feedback-mode-0" data-i="0">On a screenshot</label><label for="feedback-mode-1" data-i="1">On a markdown file</label><label for="feedback-mode-2" data-i="2">On an HTML page</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/feedback-mode--screenshot.eee0410f4e.jpg" src="films/feedback-mode--screenshot.4398ba6990.mp4" aria-label="The refund email&#39;s picture shows the wrong amount, Ctrl+F turns on feedback mode, a box goes round the amount with the note saying what it should be, Ctrl+S sends it, and the next pictures show the right amount."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>On a screenshot</b><span>0:26</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The pictures</li><li>Box and note</li><li>Send</li><li>Fixed pictures</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/feedback-mode--markdown.378c8c5192.jpg" src="films/feedback-mode--markdown.f95f373dfa.mp4" aria-label="The migration notes open from the pinned strip with Ctrl+1, Ctrl+J letters the paragraphs, a note goes on the one about copying the rows, and Ctrl+S sends it to the agent with the paragraph it is about."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>On a markdown file</b><span>0:26</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Open the pinned file</li><li>Note on a paragraph</li><li>Send</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/feedback-mode--html.3c45e65a99.jpg" src="films/feedback-mode--html.4aa45d3c3e.mp4" aria-label="The gift card field&#39;s mock opens as a page, Ctrl+F turns on feedback mode, the note &quot;Move it under the code field&quot; goes on the Apply button, Ctrl+S sends it, and the next version has the button under the field."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>On an HTML page</b><span>0:21</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Open the page</li><li>Note on a part</li><li>Send</li><li>Next version</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="reviews">
-    <input class="pick" type="radio" name="reviews" id="reviews-0" data-i="0" checked aria-label="A review that hunts bugs"><input class="pick" type="radio" name="reviews" id="reviews-1" data-i="1" aria-label="A Codex review"><input class="pick" type="radio" name="reviews" id="reviews-2" data-i="2" aria-label="A mutation test"><input class="pick" type="radio" name="reviews" id="reviews-3" data-i="3" aria-label="A security review">
-    <div class="words">
-      <div class="num">07 / 25<span>Check their work</span></div>
-      <h2>Reviews</h2>
-      <p class="what">A second set of eyes on every change: reviewers hunt for faults, and mutation tests show whether the tests would notice.</p>
-      <p class="about">A review puts a second set of eyes on a spawn&#39;s change. Reviewers read the change for faults and check it against your rules, the agent fixes what they keep, and the Review card shows each item as fixed. A Codex review has the other agent read the same change. A mutation test plants small bugs in the changed code to show whether the tests would notice.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="reviews-0" data-i="0">A review that hunts bugs</label><label for="reviews-1" data-i="1">A Codex review</label><label for="reviews-2" data-i="2">A mutation test</label><label for="reviews-3" data-i="3">A security review</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/reviews--review.eb601bb488.jpg" src="films/reviews--review.d184b12d07.mp4" aria-label="Z presses Review on the spawn that built the gift card balance, three reviewers read the change, the agent fixes what they kept, and the Review card comes back with four defects and one broken rule, each marked fixed."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A review that hunts bugs</b><span>0:15</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Change built</li><li>Press Review</li><li>Fixing</li><li>Every item fixed</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/reviews--codex-review.d43816c2f4.jpg" src="films/reviews--codex-review.3b7ec35fe6.mp4" aria-label="Codex&#39;s two read-only sessions on the gift card change wait as a plan, each finding with its file and line and the fix it proposes, P approves it, and the spawn goes to work on the fixes."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A Codex review</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Findings waiting</li><li>Open the findings</li><li>The fixes</li><li>Approve</li><li>Fixing</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/reviews--mutation.c17f646897.jpg" src="films/reviews--mutation.edf744a854.mp4" aria-label="Six small bugs went into the gift card code, the tests caught four, and the card names the one they missed at src/checkout/total.ts line 38 with the line before and after. Write the tests adds a test, and the card comes back with that bug caught."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A mutation test</b><span>0:23</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Tried and caught</li><li>The missed bug</li><li>Write the tests</li><li>Caught now</li></ol>
-      </figure>
-      <figure class="film" data-i="3">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/reviews--security.9515b26c92.jpg" src="films/reviews--security.b592006728.mp4" aria-label="Z presses Review on the gift card change, the Security lens finds the checkout taking the gift card amount from the browser, so an edited request pays €5 for a €60 order, and the card comes back with it fixed."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A security review</b><span>0:15</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Change built</li><li>Press Review</li><li>Fixing</li><li>Security fixed</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="cards">
-    <input class="pick" type="radio" name="cards" id="cards-0" data-i="0" checked aria-label="A card read from the source"><input class="pick" type="radio" name="cards" id="cards-1" data-i="1" aria-label="The chain it waited on"><input class="pick" type="radio" name="cards" id="cards-2" data-i="2" aria-label="Where one call spent its time"><input class="pick" type="radio" name="cards" id="cards-3" data-i="3" aria-label="What failed under a 200"><input class="pick" type="radio" name="cards" id="cards-4" data-i="4" aria-label="61 calls, down to the ones you mean"><input class="pick" type="radio" name="cards" id="cards-5" data-i="5" aria-label="The same calls, added up"><input class="pick" type="radio" name="cards" id="cards-6" data-i="6" aria-label="Past the one trace"><input class="pick" type="radio" name="cards" id="cards-7" data-i="7" aria-label="Headings in your words"><input class="pick" type="radio" name="cards" id="cards-8" data-i="8" aria-label="Design your own card">
-    <div class="words">
-      <div class="num">08 / 25<span>Check their work</span></div>
-      <h2>Cards</h2>
-      <p class="what">Results arrive as cards you can read at a glance, and you can design your own.</p>
-      <p class="about">A spawn&#39;s results arrive as cards: a trace, a review, a test report or a status, drawn from the source data rather than retold in prose. A trace card opens down to the single call that was slow or failed. You can also design your own card in Settings, block by block, and every agent on the machine can then answer with it.</p>
-      <div class="list" role="presentation"><label for="cards-0" data-i="0">A card read from the source</label><label for="cards-1" data-i="1">The chain it waited on</label><label for="cards-2" data-i="2">Where one call spent its time</label><label for="cards-3" data-i="3">What failed under a 200</label><label for="cards-4" data-i="4">61 calls, down to the ones you mean</label><label for="cards-5" data-i="5">The same calls, added up</label><label for="cards-6" data-i="6">Past the one trace</label><label for="cards-7" data-i="7">Headings in your words</label><label for="cards-8" data-i="8">Design your own card</label></div>
-    </div>
-    <div class="films">
-      
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--the-card.91fbb66d9a.jpg" src="films/cards--the-card.ec663f07ee.mp4" aria-label="A reply saying this is the slowest checkout of the hour, with a Shop trace card under it: one sentence, a bar of 1.3 s and 61 operations."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A card read from the source</b><span>0:15</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The reply</li><li>The foot</li><li>show the block</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--critical-path.be1524bfed.jpg" src="films/cards--critical-path.6c43d9e279.mp4" aria-label="The trace with Critical path on: amber marks run down the tax lookups, and the long payment bar has none."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The chain it waited on</b><span>0:17</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Open</li><li>Critical path</li><li>Off the path</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--one-call.5a52d1211f.jpg" src="films/cards--one-call.2bbcd8fb70.mp4" aria-label="A pressed call&#39;s facts: length, self time, parent and critical path in a grid, with Runs on under them naming the service, host and region."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Where one call spent its time</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>A lookup</li><li>Its query</li><li>Runs on</li><li>Copy JSON</li></ol>
-      </figure>
-      <figure class="film" data-i="3">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--errors-only.110f37e7f6.jpg" src="films/cards--errors-only.985dcc54ea.mp4" aria-label="A failed lookup opened with Errors only on, its red box reading TimeoutError and the rate taken from the cache."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>What failed under a 200</b><span>0:17</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The 200</li><li>Errors only</li><li>The reason</li></ol>
-      </figure>
-      <figure class="film" data-i="4">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--filter.0568a1d56d.jpg" src="films/cards--filter.a03dd532cc.mp4" aria-label="The trace filtered on tax-db, the count reading 18 of 61 calls."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>61 calls, down to the ones you mean</b><span>0:14</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Filter calls</li><li>All of them</li><li>Fold all</li><li>Open all</li></ol>
-      </figure>
-      <figure class="film" data-i="5">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--stats.674b1a70a5.jpg" src="films/cards--stats.68496ffa04.mp4" aria-label="Stats: one table by service and one by operation, with calls, total, self and failed for each."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The same calls, added up</b><span>0:12</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Trace fan</li><li>Stats</li></ol>
-      </figure>
-      <figure class="film" data-i="6">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--other-cards.0b10835073.jpg" src="films/cards--other-cards.70e5d6b85c.mp4" aria-label="Shop service map in a reply: shop-api calling tax-service, with the share of failed calls written on the line between them."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Past the one trace</b><span>0:28</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Shop service map</li><li>Shop findings</li><li>Shop flow run times</li><li>Shop flow health</li><li>Shop value split</li></ol>
-      </figure>
-      <figure class="film" data-i="7">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--names.2d8f7e31a3.jpg" src="films/cards--names.9291e72f1b.mp4" aria-label="The card editor with Over one second typed beside selectedShare, and Preview using it as the chart&#39;s heading."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Headings in your words</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Cards</li><li>The editor</li><li>The name box</li><li>Preview</li></ol>
-      </figure>
-      <figure class="film" data-i="8">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/cards--own-card.0fe64ab27a.jpg" src="films/cards--own-card.3bded29968.mp4" aria-label="Settings lists this machine&#39;s own cards. The Deploy check opens in the editor with its blocks and a preview, a spawn in shop-api ends its reply with that card, and the operator&#39;s answers go back to the agent as one message."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Design your own card</b><span>0:46</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Your cards</li><li>Its blocks</li><li>In a reply</li><li>Answer it</li><li>Sent back</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="pins">
+    <div class="num">03 / 25</div>
+    <h3>Editor area</h3>
+    <p class="what">Everything about one spawn in one place: its conversation, the writing area you talk to it from, what it changed, its plan, its log and where it stands.</p>
+    <p class="about">Opening a spawn shows everything about it in one place. The conversation shows each turn with the cards it ended on, and the State card says what is done and what is left. The writing area under it sends your next message, steers a turn that is still running, or stashes a draft for later. The Explain, Map and Log views show what a turn changed and what the change touches.</p>
+    <p class="films-head">9 films</p>
+    <div class="list" role="presentation"><label for="editor-area-0" data-i="0">Weight is what stands on it</label><label for="editor-area-1" data-i="1">The map shows who calls it</label><label for="editor-area-2" data-i="2">The Log keeps every turn</label><label for="editor-area-3" data-i="3">One file, for the question left</label><label for="editor-area-4" data-i="4">The State card</label><label for="editor-area-5" data-i="5">Explain</label><label for="editor-area-6" data-i="6">Map</label><label for="editor-area-7" data-i="7">Steer a running turn</label><label for="editor-area-8" data-i="8">Stash and commands</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/editor-area--the-map.51a7db4743.jpg" src="films/editor-area--the-map.406c9ba29d.mp4" aria-label="imba&#39;s map of a shop&#39;s codebase with one turn on it: a five-line change in src/money tied into amber folders across the shop"></video>
+      <figcaption><b>Weight is what stands on it</b><span>0:11</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The Edits line</li><li>The map</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/editor-area--what-stands-on-it.8120081b8c.jpg" src="films/editor-area--what-stands-on-it.1ad056a734.mp4" aria-label="imba&#39;s map of the src/money folder, round.ts beside the 21 files that call what changed"></video>
+      <figcaption><b>The map shows who calls it</b><span>0:12</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The map</li><li>Open src/money</li><li>Back</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/editor-area--the-log.7736aca4b0.jpg" src="films/editor-area--the-log.8d8e0f10cb.mp4" aria-label="imba&#39;s Log of the gift card spawn in two chapters, with the turn that settled the rounding open"></video>
+      <figcaption><b>The Log keeps every turn</b><span>0:11</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The Log</li><li>Open 4</li></ol>
+    </figure>
+    <figure class="film" data-i="3">
+      <video controls playsinline muted preload="none" poster="films/editor-area--the-files.fb4c1bc575.jpg" src="films/editor-area--the-files.5764426e2b.mp4" aria-label="imba&#39;s Edits box with its folders and files brought back, then the diff of round.ts, where half a cent now goes to the even cent"></video>
+      <figcaption><b>One file, for the question left</b><span>0:22</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Put away</li><li>The files</li><li>Open src/money</li><li>Open round.ts</li><li>Back</li><li>Away again</li></ol>
+    </figure>
+    <figure class="film" data-i="4">
+      <video controls playsinline muted preload="none" poster="films/editor-area--state-card.3097f7eee8.jpg" src="films/editor-area--state-card.704e19f201.mp4" aria-label="Each turn of the gift card spawn ends with its State card, whose track moves from Building to Built to Ready, and C opens it to show the goal, what is done and what is left."></video>
+      <figcaption><b>The State card</b><span>0:29</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Agent at work</li><li>Building</li><li>Done and left</li><li>Built</li><li>Ready</li></ol>
+    </figure>
+    <figure class="film" data-i="5">
+      <video controls playsinline muted preload="none" poster="films/editor-area--explain.591c379ddd.jpg" src="films/editor-area--explain.8c3d1b18f4.mp4" aria-label="E opens the turn&#39;s change story, and N steps through its scenes, each a drawing of the code with the real diff lines under it."></video>
+      <figcaption><b>Explain</b><span>0:21</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The turn</li><li>Open Explain</li><li>Scene by scene</li><li>Back to the turn</li></ol>
+    </figure>
+    <figure class="film" data-i="6">
+      <video controls playsinline muted preload="none" poster="films/editor-area--map.235fbdd7e3.jpg" src="films/editor-area--map.4414ae52a5.mp4" aria-label="R draws the repository as a map with the changed folders in green and the code that uses them in amber, and a folder&#39;s number opens it to show what changed there and what calls it."></video>
+      <figcaption><b>Map</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The turn</li><li>The map</li><li>Into a folder</li><li>Back out</li></ol>
+    </figure>
+    <figure class="film" data-i="7">
+      <video controls playsinline muted preload="none" poster="films/editor-area--steer.b9a7e05eda.jpg" src="films/editor-area--steer.5ef2ed05f4.mp4" aria-label="While the agent works, / opens the writing area, &quot;Show the balance under the code field&quot; goes in, and Ctrl+S steers the running turn without stopping it."></video>
+      <figcaption><b>Steer a running turn</b><span>0:18</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Agent at work</li><li>Write</li><li>Steer</li><li>It answers</li></ol>
+    </figure>
+    <figure class="film" data-i="8">
+      <video controls playsinline muted preload="none" poster="films/editor-area--stash.4adeb06c15.jpg" src="films/editor-area--stash.6eb797af28.mp4" aria-label="Ctrl+T stashes a half-written message, Ctrl+K puts /r in its place and sends a review, and Ctrl+R brings the stashed message back."></video>
+      <figcaption><b>Stash and commands</b><span>0:27</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Half written</li><li>Stash it</li><li>Insert /r</li><li>Review runs</li><li>Draft back</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="pins">
     <input class="pick" type="radio" name="pins" id="pins-0" data-i="0" checked aria-label="A pinned file"><input class="pick" type="radio" name="pins" id="pins-1" data-i="1" aria-label="A pinned page"><input class="pick" type="radio" name="pins" id="pins-2" data-i="2" aria-label="A pinned shell">
-    <div class="words">
-      <div class="num">09 / 25<span>Check their work</span></div>
-      <h2>Pins</h2>
-      <p class="what">Keep the files, pages and shells a spawn needs on a strip beside it, one key away.</p>
-      <p class="about">Each spawn has a strip of pins over its writing area: the files, pages and shells it needs. An agent pins the report it wrote or the preview it started, and you can pin your own. A pin opens beside the conversation, so a report, a live page or a running test shell stays in view while you talk to the agent.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="pins-0" data-i="0">A pinned file</label><label for="pins-1" data-i="1">A pinned page</label><label for="pins-2" data-i="2">A pinned shell</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/pins--file.e3e0648d3f.jpg" src="films/pins--file.4aeda1d86b.mp4" aria-label="The spawn that built the gift card balance pins its report, the report&#39;s chip lands on the strip over the writing area, and Ctrl+1 opens it beside the conversation."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A pinned file</b><span>0:09</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The reply</li><li>Pinned</li><li>Ctrl+1 opens it</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/pins--page.08c77b19f0.jpg" src="films/pins--page.4ca93e234c.mp4" aria-label="The storefront preview goes on the strip at its checkout, and Ctrl+1 opens the page there with the gift card balance under the code field."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A pinned page</b><span>0:10</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The reply</li><li>Pinned</li><li>The page opens</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/pins--shell.ba6e834cb2.jpg" src="films/pins--shell.7df94cc6c1.mp4" aria-label="The shell watching the checkout tests sits on the spawn&#39;s strip, and Ctrl+1 opens it with 39 of 39 tests passing on its screen."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A pinned shell</b><span>0:08</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>On the strip</li><li>The shell opens</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="loops">
+    <div class="num">04 / 25</div>
+    <h3>Pins</h3>
+    <p class="what">Keep the files, pages and shells a spawn needs on a strip beside it, one key away.</p>
+    <p class="about">Each spawn has a strip of pins over its writing area: the files, pages and shells it needs. An agent pins the report it wrote or the preview it started, and you can pin your own. A pin opens beside the conversation, so a report, a live page or a running test shell stays in view while you talk to the agent.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="pins-0" data-i="0">A pinned file</label><label for="pins-1" data-i="1">A pinned page</label><label for="pins-2" data-i="2">A pinned shell</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/pins--file.e3e0648d3f.jpg" src="films/pins--file.4aeda1d86b.mp4" aria-label="The spawn that built the gift card balance pins its report, the report&#39;s chip lands on the strip over the writing area, and Ctrl+1 opens it beside the conversation."></video>
+      <figcaption><b>A pinned file</b><span>0:09</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The reply</li><li>Pinned</li><li>Ctrl+1 opens it</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/pins--page.08c77b19f0.jpg" src="films/pins--page.4ca93e234c.mp4" aria-label="The storefront preview goes on the strip at its checkout, and Ctrl+1 opens the page there with the gift card balance under the code field."></video>
+      <figcaption><b>A pinned page</b><span>0:10</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The reply</li><li>Pinned</li><li>The page opens</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/pins--shell.ba6e834cb2.jpg" src="films/pins--shell.7df94cc6c1.mp4" aria-label="The shell watching the checkout tests sits on the spawn&#39;s strip, and Ctrl+1 opens it with 39 of 39 tests passing on its screen."></video>
+      <figcaption><b>A pinned shell</b><span>0:08</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>On the strip</li><li>The shell opens</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="chapter" id="part-2">
+  <header class="chapter-head">
+    <div class="part">Part 2 of 7</div>
+    <h2>Check their work</h2>
+    <p>Read the plan before an agent builds, see proof of what it built, and have it reviewed.</p>
+  </header>
+  <article class="feature" id="plans">
+    <input class="pick" type="radio" name="plans" id="plans-0" data-i="0" checked aria-label="Comment and send back"><input class="pick" type="radio" name="plans" id="plans-1" data-i="1" aria-label="Approve a plan carrying a mock">
+    <div class="num">05 / 25</div>
+    <h3>Plans</h3>
+    <p class="what">Read an agent&#39;s plan before it builds, comment on any line, send it back, and approve it only when it is right.</p>
+    <p class="about">Before a spawn builds anything larger, it writes a plan, and its row turns blue. You read the plan in imba, put a note on any line and send it back, and the agent answers with a new version. When the plan is right, you approve it and the agent starts building. A plan for a screen carries a mock of that screen at phone and desktop width.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="plans-0" data-i="0">Comment and send back</label><label for="plans-1" data-i="1">Approve a plan carrying a mock</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/plans--send-back.725c5ce8fc.jpg" src="films/plans--send-back.a0c8651bc8.mp4" aria-label="The plan for migrating the orders table opens from its blue row, the note &quot;Do it in batches of 1,000, the table has 4 million rows&quot; goes on the line that copies every row at once, I sends it back, and the plan returns with that line rewritten."></video>
+      <figcaption><b>Comment and send back</b><span>0:30</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Plan waiting</li><li>Open the plan</li><li>Note on a line</li><li>Send it back</li><li>Line rewritten</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/plans--approve-mock.1eed9105a7.jpg" src="films/plans--approve-mock.32ff42f723.mp4" aria-label="The gift card balance plan opens with its mock of the checkout drawn at phone and desktop width, P approves it, and the spawn goes to work writing the files."></video>
+      <figcaption><b>Approve a plan carrying a mock</b><span>0:23</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Plan waiting</li><li>Open the plan</li><li>The mock</li><li>Approve</li><li>Building</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="proofs">
+    <input class="pick" type="radio" name="proofs" id="proofs-0" data-i="0" checked aria-label="A UI demo film"><input class="pick" type="radio" name="proofs" id="proofs-1" data-i="1" aria-label="Before and after screenshots"><input class="pick" type="radio" name="proofs" id="proofs-2" data-i="2" aria-label="A manual test">
+    <div class="num">06 / 25</div>
+    <h3>Proofs</h3>
+    <p class="what">Every finished change comes back with proof you can see, never only a claim.</p>
+    <p class="about">A finished change comes back with proof you can look at, not only the agent&#39;s word. The proof can be a film of the feature being used at real speed, before and after screenshots of the screen it changed, or a manual test report with one finding per fault. Each opens straight from the card it came on, beside the conversation.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="proofs-0" data-i="0">A UI demo film</label><label for="proofs-1" data-i="1">Before and after screenshots</label><label for="proofs-2" data-i="2">A manual test</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/proofs--ui-demo.6c6d6f9550.jpg" src="films/proofs--ui-demo.16cfdf0f27.mp4" aria-label="The spawn that built the gift card balance hands back a film of a shopper paying with a gift card, and one press plays it beside the conversation at real speed."></video>
+      <figcaption><b>A UI demo film</b><span>0:15</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The films card</li><li>Play the film</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/proofs--screenshots.52cae6c3e5.jpg" src="films/proofs--screenshots.6e699f74fa.mp4" aria-label="The spawn hands back the checkout before the gift card balance came onto it beside the checkout after, and one press opens the after picture full size."></video>
+      <figcaption><b>Before and after screenshots</b><span>0:11</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Before and after</li><li>Open the after</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/proofs--manual-test.6b11131d29.jpg" src="films/proofs--manual-test.70f4e7356d.mp4" aria-label="The spawn clicked through the checkout at phone and desktop width and hands back a test report with two faults, each with the frame it was seen in, and one press opens a fault&#39;s frame."></video>
+      <figcaption><b>A manual test</b><span>0:14</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The test report</li><li>Open a fault</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="feedback-mode">
+    <input class="pick" type="radio" name="feedback-mode" id="feedback-mode-0" data-i="0" checked aria-label="On a screenshot"><input class="pick" type="radio" name="feedback-mode" id="feedback-mode-1" data-i="1" aria-label="On a markdown file"><input class="pick" type="radio" name="feedback-mode" id="feedback-mode-2" data-i="2" aria-label="On an HTML page">
+    <div class="num">07 / 25</div>
+    <h3>Feedback mode</h3>
+    <p class="what">Point at what is wrong on a picture, a markdown file or an HTML page, and the note goes back to the agent with it.</p>
+    <p class="about">Feedback mode lets you point at the thing that is wrong instead of describing it. Turn it on over a screenshot, a markdown file or an HTML page, draw a box or pick a paragraph, and type a note. The notes go to the agent together with the picture or the text they are about, and the agent&#39;s next version answers them.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="feedback-mode-0" data-i="0">On a screenshot</label><label for="feedback-mode-1" data-i="1">On a markdown file</label><label for="feedback-mode-2" data-i="2">On an HTML page</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/feedback-mode--screenshot.eee0410f4e.jpg" src="films/feedback-mode--screenshot.4398ba6990.mp4" aria-label="The refund email&#39;s picture shows the wrong amount, Ctrl+F turns on feedback mode, a box goes round the amount with the note saying what it should be, Ctrl+S sends it, and the next pictures show the right amount."></video>
+      <figcaption><b>On a screenshot</b><span>0:26</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The pictures</li><li>Box and note</li><li>Send</li><li>Fixed pictures</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/feedback-mode--markdown.378c8c5192.jpg" src="films/feedback-mode--markdown.f95f373dfa.mp4" aria-label="The migration notes open from the pinned strip with Ctrl+1, Ctrl+J letters the paragraphs, a note goes on the one about copying the rows, and Ctrl+S sends it to the agent with the paragraph it is about."></video>
+      <figcaption><b>On a markdown file</b><span>0:26</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Open the pinned file</li><li>Note on a paragraph</li><li>Send</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/feedback-mode--html.3c45e65a99.jpg" src="films/feedback-mode--html.4aa45d3c3e.mp4" aria-label="The gift card field&#39;s mock opens as a page, Ctrl+F turns on feedback mode, the note &quot;Move it under the code field&quot; goes on the Apply button, Ctrl+S sends it, and the next version has the button under the field."></video>
+      <figcaption><b>On an HTML page</b><span>0:21</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Open the page</li><li>Note on a part</li><li>Send</li><li>Next version</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="reviews">
+    <input class="pick" type="radio" name="reviews" id="reviews-0" data-i="0" checked aria-label="A review that hunts bugs"><input class="pick" type="radio" name="reviews" id="reviews-1" data-i="1" aria-label="A Codex review"><input class="pick" type="radio" name="reviews" id="reviews-2" data-i="2" aria-label="A mutation test"><input class="pick" type="radio" name="reviews" id="reviews-3" data-i="3" aria-label="A security review">
+    <div class="num">08 / 25</div>
+    <h3>Reviews</h3>
+    <p class="what">A second set of eyes on every change: reviewers hunt for faults, and mutation tests show whether the tests would notice.</p>
+    <p class="about">A review puts a second set of eyes on a spawn&#39;s change. Reviewers read the change for faults and check it against your rules, the agent fixes what they keep, and the Review card shows each item as fixed. A Codex review has the other agent read the same change. A mutation test plants small bugs in the changed code to show whether the tests would notice.</p>
+    <p class="films-head">4 films</p>
+    <div class="list" role="presentation"><label for="reviews-0" data-i="0">A review that hunts bugs</label><label for="reviews-1" data-i="1">A Codex review</label><label for="reviews-2" data-i="2">A mutation test</label><label for="reviews-3" data-i="3">A security review</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/reviews--review.eb601bb488.jpg" src="films/reviews--review.d184b12d07.mp4" aria-label="Z presses Review on the spawn that built the gift card balance, three reviewers read the change, the agent fixes what they kept, and the Review card comes back with four defects and one broken rule, each marked fixed."></video>
+      <figcaption><b>A review that hunts bugs</b><span>0:15</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Change built</li><li>Press Review</li><li>Fixing</li><li>Every item fixed</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/reviews--codex-review.d43816c2f4.jpg" src="films/reviews--codex-review.3b7ec35fe6.mp4" aria-label="Codex&#39;s two read-only sessions on the gift card change wait as a plan, each finding with its file and line and the fix it proposes, P approves it, and the spawn goes to work on the fixes."></video>
+      <figcaption><b>A Codex review</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Findings waiting</li><li>Open the findings</li><li>The fixes</li><li>Approve</li><li>Fixing</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/reviews--mutation.c17f646897.jpg" src="films/reviews--mutation.edf744a854.mp4" aria-label="Six small bugs went into the gift card code, the tests caught four, and the card names the one they missed at src/checkout/total.ts line 38 with the line before and after. Write the tests adds a test, and the card comes back with that bug caught."></video>
+      <figcaption><b>A mutation test</b><span>0:23</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Tried and caught</li><li>The missed bug</li><li>Write the tests</li><li>Caught now</li></ol>
+    </figure>
+    <figure class="film" data-i="3">
+      <video controls playsinline muted preload="none" poster="films/reviews--security.9515b26c92.jpg" src="films/reviews--security.b592006728.mp4" aria-label="Z presses Review on the gift card change, the Security lens finds the checkout taking the gift card amount from the browser, so an edited request pays €5 for a €60 order, and the card comes back with it fixed."></video>
+      <figcaption><b>A security review</b><span>0:15</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Change built</li><li>Press Review</li><li>Fixing</li><li>Security fixed</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="cards">
+    <input class="pick" type="radio" name="cards" id="cards-0" data-i="0" checked aria-label="A card read from the source"><input class="pick" type="radio" name="cards" id="cards-1" data-i="1" aria-label="The chain it waited on"><input class="pick" type="radio" name="cards" id="cards-2" data-i="2" aria-label="Where one call spent its time"><input class="pick" type="radio" name="cards" id="cards-3" data-i="3" aria-label="What failed under a 200"><input class="pick" type="radio" name="cards" id="cards-4" data-i="4" aria-label="61 calls, down to the ones you mean"><input class="pick" type="radio" name="cards" id="cards-5" data-i="5" aria-label="The same calls, added up"><input class="pick" type="radio" name="cards" id="cards-6" data-i="6" aria-label="Past the one trace"><input class="pick" type="radio" name="cards" id="cards-7" data-i="7" aria-label="Headings in your words"><input class="pick" type="radio" name="cards" id="cards-8" data-i="8" aria-label="Design your own card">
+    <div class="num">09 / 25</div>
+    <h3>Cards</h3>
+    <p class="what">Results arrive as cards you can read at a glance, and you can design your own.</p>
+    <p class="about">A spawn&#39;s results arrive as cards: a trace, a review, a test report or a status, drawn from the source data rather than retold in prose. A trace card opens down to the single call that was slow or failed. You can also design your own card in Settings, block by block, and every agent on the machine can then answer with it.</p>
+    <p class="films-head">9 films</p>
+    <div class="list" role="presentation"><label for="cards-0" data-i="0">A card read from the source</label><label for="cards-1" data-i="1">The chain it waited on</label><label for="cards-2" data-i="2">Where one call spent its time</label><label for="cards-3" data-i="3">What failed under a 200</label><label for="cards-4" data-i="4">61 calls, down to the ones you mean</label><label for="cards-5" data-i="5">The same calls, added up</label><label for="cards-6" data-i="6">Past the one trace</label><label for="cards-7" data-i="7">Headings in your words</label><label for="cards-8" data-i="8">Design your own card</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/cards--the-card.91fbb66d9a.jpg" src="films/cards--the-card.ec663f07ee.mp4" aria-label="A reply saying this is the slowest checkout of the hour, with a Shop trace card under it: one sentence, a bar of 1.3 s and 61 operations."></video>
+      <figcaption><b>A card read from the source</b><span>0:15</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The reply</li><li>The foot</li><li>show the block</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/cards--critical-path.be1524bfed.jpg" src="films/cards--critical-path.6c43d9e279.mp4" aria-label="The trace with Critical path on: amber marks run down the tax lookups, and the long payment bar has none."></video>
+      <figcaption><b>The chain it waited on</b><span>0:17</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Open</li><li>Critical path</li><li>Off the path</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/cards--one-call.5a52d1211f.jpg" src="films/cards--one-call.2bbcd8fb70.mp4" aria-label="A pressed call&#39;s facts: length, self time, parent and critical path in a grid, with Runs on under them naming the service, host and region."></video>
+      <figcaption><b>Where one call spent its time</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>A lookup</li><li>Its query</li><li>Runs on</li><li>Copy JSON</li></ol>
+    </figure>
+    <figure class="film" data-i="3">
+      <video controls playsinline muted preload="none" poster="films/cards--errors-only.110f37e7f6.jpg" src="films/cards--errors-only.985dcc54ea.mp4" aria-label="A failed lookup opened with Errors only on, its red box reading TimeoutError and the rate taken from the cache."></video>
+      <figcaption><b>What failed under a 200</b><span>0:17</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The 200</li><li>Errors only</li><li>The reason</li></ol>
+    </figure>
+    <figure class="film" data-i="4">
+      <video controls playsinline muted preload="none" poster="films/cards--filter.0568a1d56d.jpg" src="films/cards--filter.a03dd532cc.mp4" aria-label="The trace filtered on tax-db, the count reading 18 of 61 calls."></video>
+      <figcaption><b>61 calls, down to the ones you mean</b><span>0:14</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Filter calls</li><li>All of them</li><li>Fold all</li><li>Open all</li></ol>
+    </figure>
+    <figure class="film" data-i="5">
+      <video controls playsinline muted preload="none" poster="films/cards--stats.674b1a70a5.jpg" src="films/cards--stats.68496ffa04.mp4" aria-label="Stats: one table by service and one by operation, with calls, total, self and failed for each."></video>
+      <figcaption><b>The same calls, added up</b><span>0:12</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Trace fan</li><li>Stats</li></ol>
+    </figure>
+    <figure class="film" data-i="6">
+      <video controls playsinline muted preload="none" poster="films/cards--other-cards.0b10835073.jpg" src="films/cards--other-cards.70e5d6b85c.mp4" aria-label="Shop service map in a reply: shop-api calling tax-service, with the share of failed calls written on the line between them."></video>
+      <figcaption><b>Past the one trace</b><span>0:28</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Shop service map</li><li>Shop findings</li><li>Shop flow run times</li><li>Shop flow health</li><li>Shop value split</li></ol>
+    </figure>
+    <figure class="film" data-i="7">
+      <video controls playsinline muted preload="none" poster="films/cards--names.2d8f7e31a3.jpg" src="films/cards--names.9291e72f1b.mp4" aria-label="The card editor with Over one second typed beside selectedShare, and Preview using it as the chart&#39;s heading."></video>
+      <figcaption><b>Headings in your words</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Cards</li><li>The editor</li><li>The name box</li><li>Preview</li></ol>
+    </figure>
+    <figure class="film" data-i="8">
+      <video controls playsinline muted preload="none" poster="films/cards--own-card.0fe64ab27a.jpg" src="films/cards--own-card.3bded29968.mp4" aria-label="Settings lists this machine&#39;s own cards. The Deploy check opens in the editor with its blocks and a preview, a spawn in shop-api ends its reply with that card, and the operator&#39;s answers go back to the agent as one message."></video>
+      <figcaption><b>Design your own card</b><span>0:46</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Your cards</li><li>Its blocks</li><li>In a reply</li><li>Answer it</li><li>Sent back</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="chapter" id="part-3">
+  <header class="chapter-head">
+    <div class="part">Part 3 of 7</div>
+    <h2>Agents working together</h2>
+    <p>Several agents share one larger job, with checks between them.</p>
+  </header>
+  <article class="feature" id="loops">
     <input class="pick" type="radio" name="loops" id="loops-0" data-i="0" checked aria-label="Review the two plans"><input class="pick" type="radio" name="loops" id="loops-1" data-i="1" aria-label="Rounds until proven">
-    <div class="words">
-      <div class="num">10 / 25<span>Agents working together</span></div>
-      <h2>Loops</h2>
-      <p class="what">Give a task to a builder and a checker that take turns until the work is proven.</p>
-      <p class="about">A loop gives one task to a builder and a checker that take turns until the work is proven. A planning agent first writes the builder&#39;s plan and the checker&#39;s plan, which you review as one chart and send back or approve. Then each round the builder builds, the checker tests a fresh copy, and the loop stops only when every check passes.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="loops-0" data-i="0">Review the two plans</label><label for="loops-1" data-i="1">Rounds until proven</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/loops--plans.298c04eae0.jpg" src="films/loops--plans.5d4addd65a.mp4" aria-label="The planning agent&#39;s two plans for the builder and the checker stand as one chart with the server&#39;s checks under it. The second version answers each earlier note, a new note goes on step 4, and the plans are sent back."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Review the two plans</b><span>0:33</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The two plans</li><li>What changed</li><li>A note</li><li>Send back</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/loops--rounds.7b9367203c.jpg" src="films/loops--rounds.757a5e0812.mp4" aria-label="The builder works on round 3 after the checker turned down two rounds. The checker takes the round from a fresh copy, all seven checks pass, and the loop stops proven."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Rounds until proven</b><span>0:25</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Building</li><li>The rounds</li><li>The check</li><li>Proven</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="groups-and-organisations">
+    <div class="num">10 / 25</div>
+    <h3>Loops</h3>
+    <p class="what">Give a task to a builder and a checker that take turns until the work is proven.</p>
+    <p class="about">A loop gives one task to a builder and a checker that take turns until the work is proven. A planning agent first writes the builder&#39;s plan and the checker&#39;s plan, which you review as one chart and send back or approve. Then each round the builder builds, the checker tests a fresh copy, and the loop stops only when every check passes.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="loops-0" data-i="0">Review the two plans</label><label for="loops-1" data-i="1">Rounds until proven</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/loops--plans.298c04eae0.jpg" src="films/loops--plans.5d4addd65a.mp4" aria-label="The planning agent&#39;s two plans for the builder and the checker stand as one chart with the server&#39;s checks under it. The second version answers each earlier note, a new note goes on step 4, and the plans are sent back."></video>
+      <figcaption><b>Review the two plans</b><span>0:33</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The two plans</li><li>What changed</li><li>A note</li><li>Send back</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/loops--rounds.7b9367203c.jpg" src="films/loops--rounds.757a5e0812.mp4" aria-label="The builder works on round 3 after the checker turned down two rounds. The checker takes the round from a fresh copy, all seven checks pass, and the loop stops proven."></video>
+      <figcaption><b>Rounds until proven</b><span>0:25</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Building</li><li>The rounds</li><li>The check</li><li>Proven</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="groups-and-organisations">
     <input class="pick" type="radio" name="groups-and-organisations" id="groups-and-organisations-0" data-i="0" checked aria-label="A group"><input class="pick" type="radio" name="groups-and-organisations" id="groups-and-organisations-1" data-i="1" aria-label="An organisation">
-    <div class="words">
-      <div class="num">11 / 25<span>Agents working together</span></div>
-      <h2>Groups and Organisations</h2>
-      <p class="what">Put a team of agents on one problem and talk only to the one leading it.</p>
-      <p class="about">A group is a leader spawn with members as spare compute: you talk only to the leader, and it hands parts of the work to the members. An organisation is larger: a Head with leaders under it, each with agents of its own, and roles that change as the work goes. The chart shows who works on what, and asks for more agents wait for your answer.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="groups-and-organisations-0" data-i="0">A group</label><label for="groups-and-organisations-1" data-i="1">An organisation</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/groups-and-organisations--group.437e838fec.jpg" src="films/groups-and-organisations--group.6cb5b77810.mp4" aria-label="A leader starts in shop-api with three members as spare compute, the third on Codex. The leader&#39;s bar shows each member at work, and a member&#39;s own page answers its approval and goes back to work."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A group</b><span>0:47</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The group</li><li>Its members</li><li>Start</li><li>The leader&#39;s bar</li><li>One member</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/groups-and-organisations--organisation.9371a99291.jpg" src="films/groups-and-organisations--organisation.c1c814e6ca.mp4" aria-label="Six agents start at once under one Head. The chart shows two leaders under the Head with two agents each, their roles change as the work goes, and the Head&#39;s ask for two more agents is approved."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>An organisation</b><span>1:01</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The organisation</li><li>Start</li><li>The chart</li><li>Roles</li><li>An ask</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="orchestration">
+    <div class="num">11 / 25</div>
+    <h3>Groups and Organisations</h3>
+    <p class="what">Put a team of agents on one problem and talk only to the one leading it.</p>
+    <p class="about">A group is a leader spawn with members as spare compute: you talk only to the leader, and it hands parts of the work to the members. An organisation is larger: a Head with leaders under it, each with agents of its own, and roles that change as the work goes. The chart shows who works on what, and asks for more agents wait for your answer.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="groups-and-organisations-0" data-i="0">A group</label><label for="groups-and-organisations-1" data-i="1">An organisation</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/groups-and-organisations--group.437e838fec.jpg" src="films/groups-and-organisations--group.6cb5b77810.mp4" aria-label="A leader starts in shop-api with three members as spare compute, the third on Codex. The leader&#39;s bar shows each member at work, and a member&#39;s own page answers its approval and goes back to work."></video>
+      <figcaption><b>A group</b><span>0:47</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The group</li><li>Its members</li><li>Start</li><li>The leader&#39;s bar</li><li>One member</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/groups-and-organisations--organisation.9371a99291.jpg" src="films/groups-and-organisations--organisation.c1c814e6ca.mp4" aria-label="Six agents start at once under one Head. The chart shows two leaders under the Head with two agents each, their roles change as the work goes, and the Head&#39;s ask for two more agents is approved."></video>
+      <figcaption><b>An organisation</b><span>1:01</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The organisation</li><li>Start</li><li>The chart</li><li>Roles</li><li>An ask</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="orchestration">
     <input class="pick" type="radio" name="orchestration" id="orchestration-0" data-i="0" checked aria-label="Declare a run graph"><input class="pick" type="radio" name="orchestration" id="orchestration-1" data-i="1" aria-label="Workers and judges run it">
-    <div class="words">
-      <div class="num">12 / 25<span>Agents working together</span></div>
-      <h2>Orchestration</h2>
-      <p class="what">Lay out a run as a graph of workers and judges, and watch each step run and be judged.</p>
-      <p class="about">An orchestration lays a run out as a graph of stations, the workers that do each step and the judges that pass it or send it back. You review the graph and the server&#39;s checks before anything runs. While it runs, the graph and its timeline show which station is working, which was sent back, and where the run waits for you.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="orchestration-0" data-i="0">Declare a run graph</label><label for="orchestration-1" data-i="1">Workers and judges run it</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/orchestration--graph.41dbdbba04.jpg" src="films/orchestration--graph.56524a9de0.mp4" aria-label="The orchestrator for gift card refunds declared six stations, a review loop and a gate before it ships. The spawn opens on the review with the server&#39;s checks, Enter reads the review station&#39;s goal, and A approves the run."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Declare a run graph</b><span>0:16</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The graph</li><li>The checks</li><li>A station&#39;s goal</li><li>Approve</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/orchestration--run.9e78ce6c7e.jpg" src="films/orchestration--run.44a77803ec.mp4" aria-label="G opens the run graph: trace and ledger count finish together, build hands its change to review, review sends it back once and passes it the second time, proof films the refund, and the run waits at Ship. T shows the timeline of every report."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Workers and judges run it</b><span>0:25</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The run graph</li><li>Trace and count done</li><li>Review sends back</li><li>Review passes</li><li>Waiting at Ship</li><li>The timeline</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="software-factory">
+    <div class="num">12 / 25</div>
+    <h3>Orchestration</h3>
+    <p class="what">Lay out a run as a graph of workers and judges, and watch each step run and be judged.</p>
+    <p class="about">An orchestration lays a run out as a graph of stations, the workers that do each step and the judges that pass it or send it back. You review the graph and the server&#39;s checks before anything runs. While it runs, the graph and its timeline show which station is working, which was sent back, and where the run waits for you.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="orchestration-0" data-i="0">Declare a run graph</label><label for="orchestration-1" data-i="1">Workers and judges run it</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/orchestration--graph.41dbdbba04.jpg" src="films/orchestration--graph.56524a9de0.mp4" aria-label="The orchestrator for gift card refunds declared six stations, a review loop and a gate before it ships. The spawn opens on the review with the server&#39;s checks, Enter reads the review station&#39;s goal, and A approves the run."></video>
+      <figcaption><b>Declare a run graph</b><span>0:16</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The graph</li><li>The checks</li><li>A station&#39;s goal</li><li>Approve</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/orchestration--run.9e78ce6c7e.jpg" src="films/orchestration--run.44a77803ec.mp4" aria-label="G opens the run graph: trace and ledger count finish together, build hands its change to review, review sends it back once and passes it the second time, proof films the refund, and the run waits at Ship. T shows the timeline of every report."></video>
+      <figcaption><b>Workers and judges run it</b><span>0:25</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The run graph</li><li>Trace and count done</li><li>Review sends back</li><li>Review passes</li><li>Waiting at Ship</li><li>The timeline</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="software-factory">
     <input class="pick" type="radio" name="software-factory" id="software-factory-0" data-i="0" checked aria-label="Draft a shape"><input class="pick" type="radio" name="software-factory" id="software-factory-1" data-i="1" aria-label="Run a saved one">
-    <div class="words">
-      <div class="num">13 / 25<span>Agents working together</span></div>
-      <h2>Software factory</h2>
-      <p class="what">Save a way of working as a reusable shape, and start the next job from it.</p>
-      <p class="about">A factory is a saved shape for an orchestration: its stations, the agents on each and the lines between them. You draw one in the factory designer, or start from one of the built-in shapes. A new orchestration then picks a factory, so the next job runs the same way without drawing it again.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="software-factory-0" data-i="0">Draft a shape</label><label for="software-factory-1" data-i="1">Run a saved one</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/software-factory--draft.8a66d4ce8a.jpg" src="films/software-factory--draft.a13497110c.mp4" aria-label="From shop-api&#39;s Add window, the factory designer lists every saved factory and draws the open one as a chart of agents, stations and loops. The developer station opens on its three agents and the brief they start from."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Draft a shape</b><span>0:17</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Add a factory</li><li>The designer</li><li>One station</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/software-factory--run.af4565ed34.jpg" src="films/software-factory--run.ec0db15a34.mp4" aria-label="The shop&#39;s own factories and the built-in ones are listed, and one opens on its chart. Start orchestration holds it in the Factory field, a search finds the factories with a checker step, and one is picked with its own branches."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Run a saved one</b><span>0:41</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Saved factories</li><li>The whole chart</li><li>Start with it</li><li>Find one</li><li>Its branches</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="routines-triggers-and-automations">
-    <input class="pick" type="radio" name="routines-triggers-and-automations" id="routines-triggers-and-automations-0" data-i="0" checked aria-label="A routine"><input class="pick" type="radio" name="routines-triggers-and-automations" id="routines-triggers-and-automations-1" data-i="1" aria-label="A trigger"><input class="pick" type="radio" name="routines-triggers-and-automations" id="routines-triggers-and-automations-2" data-i="2" aria-label="An automation chat">
-    <div class="words">
-      <div class="num">14 / 25<span>Work that starts by itself</span></div>
-      <h2>Routines, triggers and automations</h2>
-      <p class="what">Let work start by itself, on a schedule or when something happens.</p>
-      <p class="about">Work can start without you. A routine is a saved prompt on a schedule, and each run starts its own spawn. A trigger is a check inside a spawn, such as looking at a deploy every ten minutes. An automation chat is one spawn that stays open on the automations row, and its schedules type into it each day.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="routines-triggers-and-automations-0" data-i="0">A routine</label><label for="routines-triggers-and-automations-1" data-i="1">A trigger</label><label for="routines-triggers-and-automations-2" data-i="2">An automation chat</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/routines-triggers-and-automations--routine.c1cf72ba78.jpg" src="films/routines-triggers-and-automations--routine.9c317392f1.mp4" aria-label="The automations row keeps every routine behind one Routines line. It opens on the shop&#39;s routines and their schedules, and the morning check of failed payments lists every run it started, each its own spawn."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A routine</b><span>0:14</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The automations row</li><li>The routines</li><li>Its runs</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/routines-triggers-and-automations--trigger.087a74df1a.jpg" src="films/routines-triggers-and-automations--trigger.eacbb26328.mp4" aria-label="A spawn&#39;s Triggers show the check its agent set up. N adds another that looks at the deploy every ten minutes, and the two checks stand side by side."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A trigger</b><span>0:18</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The spawn</li><li>Its triggers</li><li>Add one</li><li>Saved</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/routines-triggers-and-automations--automation-chat.09ffbf0e1b.jpg" src="films/routines-triggers-and-automations--automation-chat.52a1b2fa5f.mp4" aria-label="One chat stays open on the automations row. This morning its schedule typed in the shop&#39;s bulletin with its choices, and Done closes the cycle while the chat waits for tomorrow&#39;s."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>An automation chat</b><span>0:16</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>On the row</li><li>This morning</li><li>Done</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="accounts">
-    <input class="pick" type="radio" name="accounts" id="accounts-0" data-i="0" checked aria-label="Add a login"><input class="pick" type="radio" name="accounts" id="accounts-1" data-i="1" aria-label="Load balancing">
-    <div class="words">
-      <div class="num">15 / 25<span>Logins and machines</span></div>
-      <h2>Accounts</h2>
-      <p class="what">Run spawns across several Claude Code and Codex logins, and new work goes to the login with room.</p>
-      <p class="about">imba can run spawns under several Claude Code and Codex logins at once. Agent usage shows each login&#39;s use of its five hours and its week, and a new login is added and signed in from there. New spawns go to the login with the most room, and when a few logins carry most of the work, imba spreads the spawns across them all.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="accounts-0" data-i="0">Add a login</label><label for="accounts-1" data-i="1">Load balancing</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/accounts--add-login.91218195e1.jpg" src="films/accounts--add-login.9d3f19f61d.mp4" aria-label="Agent usage lists the two Claude Code logins the shop&#39;s spawns run under. Add account names a third, seat-3, and once it is signed in it reads beside the others with its own five hours and week."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Add a login</b><span>0:18</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The logins</li><li>Add one</li><li>Its figures</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/accounts--balance.d6621d8690.jpg" src="films/accounts--balance.5e12cabff7.mp4" aria-label="Two of the shop&#39;s logins carry nearly every spawn while the others sit idle. Spread shows each login&#39;s count now and after, and one press moves each spawn to the login with room."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Load balancing</b><span>0:20</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Every login</li><li>Spread them</li><li>Moved</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="machine-browser">
-    <input class="pick" type="radio" name="machine-browser" id="machine-browser-0" data-i="0" checked aria-label="The agent drives"><input class="pick" type="radio" name="machine-browser" id="machine-browser-1" data-i="1" aria-label="You take over">
-    <div class="words">
-      <div class="num">16 / 25<span>Logins and machines</span></div>
-      <h2>Machine browser</h2>
-      <p class="what">The agent drives a real browser on the machine while you watch, and you can take over at any moment.</p>
-      <p class="about">The agent can drive a real browser on the machine, and its chip shows the page live while it works. You watch it type, click and pay as a shopper would. A click on the page takes the wheel from the agent, so you can fix a field yourself and hand it back, and the agent carries on from there.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="machine-browser-0" data-i="0">The agent drives</label><label for="machine-browser-1" data-i="1">You take over</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/machine-browser--drives.794017c04d.jpg" src="films/machine-browser--drives.5c7d3c139d.mp4" aria-label="The agent&#39;s own browser on the build host is pinned as Storefront checkout. Ctrl+1 opens it live: the agent types the gift card&#39;s code, applies it, pays €16.30, and the bar over the page names each step as it happens."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The agent drives</b><span>0:29</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The live page</li><li>Types the code</li><li>Applies it</li><li>Pays</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/machine-browser--take-over.6de92f4ac6.jpg" src="films/machine-browser--take-over.d875bdf274.mp4" aria-label="The agent types the code with an O where the card has a Q, and the shop refuses it. A click on the code field takes the wheel, the code is mended, Ctrl+/ hands the wheel back, and the agent applies the card and pays."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>You take over</b><span>0:30</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The live page</li><li>A wrong code</li><li>Take the wheel</li><li>Mend the code</li><li>Hand it back</li><li>The agent pays</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="support-machines">
-    <input class="pick" type="radio" name="support-machines" id="support-machines-0" data-i="0" checked aria-label="Each machine at a glance"><input class="pick" type="radio" name="support-machines" id="support-machines-1" data-i="1" aria-label="A build somewhere else">
-    <div class="words">
-      <div class="num">17 / 25<span>Logins and machines</span></div>
-      <h2>Support machines</h2>
-      <p class="what">Other computers carry builds and containers, so the main machine stays free.</p>
-      <p class="about">Support machines are other computers imba can use for builds and containers, so the main machine stays free for the agents. The machine monitor shows each one&#39;s processor, memory, load, containers and disks side by side. A spawn&#39;s test containers can run on a support machine, and the Docker manager switches to it to show them.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="support-machines-0" data-i="0">Each machine at a glance</label><label for="support-machines-1" data-i="1">A build somewhere else</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/support-machines--glance.ff088aff2d.jpg" src="films/support-machines--glance.98998dd251.mp4" aria-label="The machine monitor reads the shop&#39;s server and its two support machines, tests-1 and images-1, side by side. A press shows one machine&#39;s processor, memory, load, containers and disks, and M walks on to the next."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Each machine at a glance</b><span>0:17</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Every machine</li><li>One machine</li><li>The next one</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/support-machines--elsewhere.9b99d4da36.jpg" src="films/support-machines--elsewhere.b71df40ef1.mp4" aria-label="The Docker manager opens on the shop&#39;s server, then switches to tests-1. There a spawn&#39;s checkout tests run in four containers of their own, beside the payments run that finished twenty minutes earlier."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A build somewhere else</b><span>0:12</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>This machine</li><li>The test machine</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="machine-panels">
-    <input class="pick" type="radio" name="machine-panels" id="machine-panels-0" data-i="0" checked aria-label="Agent usage"><input class="pick" type="radio" name="machine-panels" id="machine-panels-1" data-i="1" aria-label="Docker"><input class="pick" type="radio" name="machine-panels" id="machine-panels-2" data-i="2" aria-label="Machine monitor">
-    <div class="words">
-      <div class="num">18 / 25<span>Logins and machines</span></div>
-      <h2>Machine panels</h2>
-      <p class="what">See what the agents cost and what the machine is doing, without leaving imba.</p>
-      <p class="about">Three panels show what the agents cost and what the machine is doing. Agent usage shows each login&#39;s use and where the week&#39;s tokens went. The Docker manager lists the containers with their logs and restarts one. The machine monitor shows processor, memory, disks and the processes using them.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="machine-panels-0" data-i="0">Agent usage</label><label for="machine-panels-1" data-i="1">Docker</label><label for="machine-panels-2" data-i="2">Machine monitor</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/machine-panels--usage.8e6d93a715.jpg" src="films/machine-panels--usage.49970f6cd2.mp4" aria-label="Agent usage shows each Claude login&#39;s use of its five hours and its week. The 7 days view then splits the week&#39;s tokens into file reads, commands, writing and the rest, and lists the spawns that used the most."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Agent usage</b><span>0:10</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Each login</li><li>Where the week went</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/machine-panels--docker.1b3a36b6bd.jpg" src="films/machine-panels--docker.348fade1cb.mp4" aria-label="The Docker manager lists the shop&#39;s containers by compose project with what each uses. The API container opens on its logs, a failed gift card refund among them, and is restarted."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Docker</b><span>0:17</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The containers</li><li>Its logs</li><li>Restart</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/machine-panels--monitor.fee381a410.jpg" src="films/machine-panels--monitor.adde27be99.mp4" aria-label="The machine monitor shows the server&#39;s processor, memory, each core, its graphics card and its disks, then the heaviest processes, sorted by memory and back by processor."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Machine monitor</b><span>0:14</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The machine</li><li>The processes</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="pen">
-    <input class="pick" type="radio" name="pen" id="pen-0" data-i="0" checked aria-label="An idea in the browser"><input class="pick" type="radio" name="pen" id="pen-1" data-i="1" aria-label="A screen on a tablet">
-    <div class="words">
-      <div class="num">19 / 25<span>Other ways in</span></div>
-      <h2>Pen</h2>
-      <p class="what">Draw an idea or a screen by hand, and the agent reads the drawing.</p>
-      <p class="about">Some ideas are quicker to draw than to write. The sketch sheet takes a pen or a mouse, and you send the drawing as an idea or as a screen, with a note. An idea comes back as ordered steps the agent starts on. A screen is found in the code and comes back as a mock.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="pen-0" data-i="0">An idea in the browser</label><label for="pen-1" data-i="1">A screen on a tablet</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/pen--idea.0c84de5f35.jpg" src="films/pen--idea.7e0c479de6.mp4" aria-label="On the spawn rounding the shop&#39;s tax, Ctrl+H opens the sketch sheet. Three boxes joined by arrows are drawn with the pen and sent as an idea with a note, and the agent writes them out as three steps in order and starts on the second."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>An idea in the browser</b><span>0:34</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Draw it</li><li>Send as an idea</li><li>The agent starts</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/pen--screen.dae3f53382.jpg" src="films/pen--screen.1e0c4957de.mp4" aria-label="The checkout is drawn by hand with its basket lines and total, and a new gift card balance line ringed in colour. Sent as a screen, the agent finds the order summary in the shop&#39;s code and answers with a mock of it."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A screen on a tablet</b><span>0:27</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Draw the screen</li><li>Send as a screen</li><li>The agent&#39;s mock</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="every-screen">
-    <input class="pick" type="radio" name="every-screen" id="every-screen-0" data-i="0" checked aria-label="The desktop app"><input class="pick" type="radio" name="every-screen" id="every-screen-1" data-i="1" aria-label="The phone app"><input class="pick" type="radio" name="every-screen" id="every-screen-2" data-i="2" aria-label="First start">
-    <div class="words">
-      <div class="num">20 / 25<span>Other ways in</span></div>
-      <h2>Every screen</h2>
-      <p class="what">One server, reached from a desktop app, a phone app or any browser.</p>
-      <p class="about">imba is one server on your machine. A browser, the desktop app and the phone app all show the same spawns from it. The apps carry no server address: each asks for it once on its first start and loads imba from that server from then on.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="every-screen-0" data-i="0">The desktop app</label><label for="every-screen-1" data-i="1">The phone app</label><label for="every-screen-2" data-i="2">First start</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/every-screen--desktop-app.1f1ac387a0.jpg" src="films/every-screen--desktop-app.38ffe554f6.mp4" aria-label="The desktop app, pointed at the shop&#39;s imba server, shows the same spawns list a browser does. A spawn opens from its number, and Settings names the server and says it is the desktop app."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The desktop app</b><span>0:11</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The spawns</li><li>A spawn</li><li>Which server</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/every-screen--phone-app.e47972165d.jpg" src="films/every-screen--phone-app.e76bafdca6.mp4" aria-label="The Android app in Ultrafocus shows only the spawns waiting on you. The first one asks whether to ship to staging, gets its answer, and goes back to work."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The phone app</b><span>0:15</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Waiting on you</li><li>The question</li><li>The answer</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/every-screen--first-start.d15cedc36f.jpg" src="films/every-screen--first-start.b0abadfb00.mp4" aria-label="A new app asks once for the server address, checks it, and loads imba from it. Settings then names the server, with Change server beside it."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>First start</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The address</li><li>imba opens</li><li>Which server</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="alarms">
-    <input class="pick" type="radio" name="alarms" id="alarms-0" data-i="0" checked aria-label="Investigate one alarm"><input class="pick" type="radio" name="alarms" id="alarms-1" data-i="1" aria-label="Investigate together"><input class="pick" type="radio" name="alarms" id="alarms-2" data-i="2" aria-label="Close it">
-    <div class="words">
-      <div class="num">21 / 25<span>Everyday work</span></div>
-      <h2>Alarms</h2>
-      <p class="what">An alert from Grafana comes in, an agent investigates it, and you close it once you have read what it found.</p>
-      <p class="about">Alerts from Grafana arrive as alarms in imba. From an alarm you start an investigation, a spawn that reads the alarm&#39;s figures and logs and reports the cause. Several alarms from the same deploy can go to one investigation together. Once you have read the finding, you close the alarm as resolved.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="alarms-0" data-i="0">Investigate one alarm</label><label for="alarms-1" data-i="1">Investigate together</label><label for="alarms-2" data-i="2">Close it</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/alarms--one.db669b892a.jpg" src="films/alarms--one.d3e71546a2.mp4" aria-label="A checkout alarm fires at the top of the Open alarms, and N on it starts an investigation spawn that reads the error rate. The spawn waits on the automations row with a bell."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Investigate one alarm</b><span>0:22</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>An alarm fires</li><li>Investigate it</li><li>On the automations row</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/alarms--together.1157da822d.jpg" src="films/alarms--together.aff93db9ff.mp4" aria-label="Three alarms that came in with the same deploy are ticked and sent to one investigation. The one spawn reads all three and finds the cause they share."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Investigate together</b><span>0:18</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The open alarms</li><li>Tick three</li><li>One investigation</li><li>One cause</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/alarms--close.ed33bcf8f6.jpg" src="films/alarms--close.ec11498fec.mp4" aria-label="The checkout alarm&#39;s investigation names the failing payment call. A closes the alarm as Resolved, and it moves from the Open alarms to the Resolved ones."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Close it</b><span>0:23</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The alarm</li><li>What it found</li><li>Close it</li><li>Resolved</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="tasks">
+    <div class="num">13 / 25</div>
+    <h3>Software factory</h3>
+    <p class="what">Save a way of working as a reusable shape, and start the next job from it.</p>
+    <p class="about">A factory is a saved shape for an orchestration: its stations, the agents on each and the lines between them. You draw one in the factory designer, or start from one of the built-in shapes. A new orchestration then picks a factory, so the next job runs the same way without drawing it again.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="software-factory-0" data-i="0">Draft a shape</label><label for="software-factory-1" data-i="1">Run a saved one</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/software-factory--draft.8a66d4ce8a.jpg" src="films/software-factory--draft.a13497110c.mp4" aria-label="From shop-api&#39;s Add window, the factory designer lists every saved factory and draws the open one as a chart of agents, stations and loops. The developer station opens on its three agents and the brief they start from."></video>
+      <figcaption><b>Draft a shape</b><span>0:17</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Add a factory</li><li>The designer</li><li>One station</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/software-factory--run.af4565ed34.jpg" src="films/software-factory--run.ec0db15a34.mp4" aria-label="The shop&#39;s own factories and the built-in ones are listed, and one opens on its chart. Start orchestration holds it in the Factory field, a search finds the factories with a checker step, and one is picked with its own branches."></video>
+      <figcaption><b>Run a saved one</b><span>0:41</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Saved factories</li><li>The whole chart</li><li>Start with it</li><li>Find one</li><li>Its branches</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="chapter" id="part-4">
+  <header class="chapter-head">
+    <div class="part">Part 4 of 7</div>
+    <h2>Work that waits or starts by itself</h2>
+    <p>Work that waits for room, runs on a schedule, or starts when an alert comes in.</p>
+  </header>
+  <article class="feature" id="tasks">
     <input class="pick" type="radio" name="tasks" id="tasks-0" data-i="0" checked aria-label="Queue a task"><input class="pick" type="radio" name="tasks" id="tasks-1" data-i="1" aria-label="The task list"><input class="pick" type="radio" name="tasks" id="tasks-2" data-i="2" aria-label="Run it">
-    <div class="words">
-      <div class="num">22 / 25<span>Everyday work</span></div>
-      <h2>Tasks</h2>
-      <p class="what">Keep coding tasks waiting until there is room for them, and start each as a spawn with one key.</p>
-      <p class="about">A task is a coding prompt kept for later, filed against a repository until there is room to run it. You queue one from the New spawn form instead of starting it, and agents can file tasks they find along the way. The Tasks list groups them by repository, and a task runs as a new spawn when you are ready.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="tasks-0" data-i="0">Queue a task</label><label for="tasks-1" data-i="1">The task list</label><label for="tasks-2" data-i="2">Run it</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/tasks--queue.6ac84c1284.jpg" src="films/tasks--queue.dd03e2851b.mp4" aria-label="On the new spawn form for shop-api, &quot;Add refunds to the gift card API&quot; is queued as a task instead of started. It waits unstarted under shop-api and at the top of the Tasks list."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Queue a task</b><span>0:23</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The new spawn form</li><li>Queue it</li><li>Waiting under shop-api</li><li>In the task list</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/tasks--list.6b0d9eac44.jpg" src="films/tasks--list.8d8de0faea.mp4" aria-label="The coding queue is grouped by the repository each task runs in, each task with its project. Every repository folds to its count and back, and one task opens on its prompt."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The task list</b><span>0:13</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>By repository</li><li>Fold and unfold</li><li>One task</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/tasks--run.a70acd9097.jpg" src="films/tasks--run.f6804575f4.mp4" aria-label="N on the gift card refunds task opens the new spawn form holding it, and Ctrl+S starts it as a spawn in shop-api. The task leaves the queue."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Run it</b><span>0:16</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The task</li><li>Run it</li><li>A spawn, and off the queue</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="commit-graph">
+    <div class="num">14 / 25</div>
+    <h3>Tasks</h3>
+    <p class="what">Keep coding tasks waiting until there is room for them, and start each as a spawn with one key.</p>
+    <p class="about">A task is a coding prompt kept for later, filed against a repository until there is room to run it. You queue one from the New spawn form instead of starting it, and agents can file tasks they find along the way. The Tasks list groups them by repository, and a task runs as a new spawn when you are ready.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="tasks-0" data-i="0">Queue a task</label><label for="tasks-1" data-i="1">The task list</label><label for="tasks-2" data-i="2">Run it</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/tasks--queue.6ac84c1284.jpg" src="films/tasks--queue.dd03e2851b.mp4" aria-label="On the new spawn form for shop-api, &quot;Add refunds to the gift card API&quot; is queued as a task instead of started. It waits unstarted under shop-api and at the top of the Tasks list."></video>
+      <figcaption><b>Queue a task</b><span>0:23</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The new spawn form</li><li>Queue it</li><li>Waiting under shop-api</li><li>In the task list</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/tasks--list.6b0d9eac44.jpg" src="films/tasks--list.8d8de0faea.mp4" aria-label="The coding queue is grouped by the repository each task runs in, each task with its project. Every repository folds to its count and back, and one task opens on its prompt."></video>
+      <figcaption><b>The task list</b><span>0:13</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>By repository</li><li>Fold and unfold</li><li>One task</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/tasks--run.a70acd9097.jpg" src="films/tasks--run.f6804575f4.mp4" aria-label="N on the gift card refunds task opens the new spawn form holding it, and Ctrl+S starts it as a spawn in shop-api. The task leaves the queue."></video>
+      <figcaption><b>Run it</b><span>0:16</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The task</li><li>Run it</li><li>A spawn, and off the queue</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="routines-triggers-and-automations">
+    <input class="pick" type="radio" name="routines-triggers-and-automations" id="routines-triggers-and-automations-0" data-i="0" checked aria-label="A routine"><input class="pick" type="radio" name="routines-triggers-and-automations" id="routines-triggers-and-automations-1" data-i="1" aria-label="A trigger"><input class="pick" type="radio" name="routines-triggers-and-automations" id="routines-triggers-and-automations-2" data-i="2" aria-label="An automation chat">
+    <div class="num">15 / 25</div>
+    <h3>Routines, triggers and automations</h3>
+    <p class="what">Let work start by itself, on a schedule or when something happens.</p>
+    <p class="about">Work can start without you. A routine is a saved prompt on a schedule, and each run starts its own spawn. A trigger is a check inside a spawn, such as looking at a deploy every ten minutes. An automation chat is one spawn that stays open on the automations row, and its schedules type into it each day.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="routines-triggers-and-automations-0" data-i="0">A routine</label><label for="routines-triggers-and-automations-1" data-i="1">A trigger</label><label for="routines-triggers-and-automations-2" data-i="2">An automation chat</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/routines-triggers-and-automations--routine.c1cf72ba78.jpg" src="films/routines-triggers-and-automations--routine.9c317392f1.mp4" aria-label="The automations row keeps every routine behind one Routines line. It opens on the shop&#39;s routines and their schedules, and the morning check of failed payments lists every run it started, each its own spawn."></video>
+      <figcaption><b>A routine</b><span>0:14</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The automations row</li><li>The routines</li><li>Its runs</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/routines-triggers-and-automations--trigger.087a74df1a.jpg" src="films/routines-triggers-and-automations--trigger.eacbb26328.mp4" aria-label="A spawn&#39;s Triggers show the check its agent set up. N adds another that looks at the deploy every ten minutes, and the two checks stand side by side."></video>
+      <figcaption><b>A trigger</b><span>0:18</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The spawn</li><li>Its triggers</li><li>Add one</li><li>Saved</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/routines-triggers-and-automations--automation-chat.09ffbf0e1b.jpg" src="films/routines-triggers-and-automations--automation-chat.52a1b2fa5f.mp4" aria-label="One chat stays open on the automations row. This morning its schedule typed in the shop&#39;s bulletin with its choices, and Done closes the cycle while the chat waits for tomorrow&#39;s."></video>
+      <figcaption><b>An automation chat</b><span>0:16</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>On the row</li><li>This morning</li><li>Done</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="alarms">
+    <input class="pick" type="radio" name="alarms" id="alarms-0" data-i="0" checked aria-label="Investigate one alarm"><input class="pick" type="radio" name="alarms" id="alarms-1" data-i="1" aria-label="Investigate together"><input class="pick" type="radio" name="alarms" id="alarms-2" data-i="2" aria-label="Close it">
+    <div class="num">16 / 25</div>
+    <h3>Alarms</h3>
+    <p class="what">An alert from Grafana comes in, an agent investigates it, and you close it once you have read what it found.</p>
+    <p class="about">Alerts from Grafana arrive as alarms in imba. From an alarm you start an investigation, a spawn that reads the alarm&#39;s figures and logs and reports the cause. Several alarms from the same deploy can go to one investigation together. Once you have read the finding, you close the alarm as resolved.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="alarms-0" data-i="0">Investigate one alarm</label><label for="alarms-1" data-i="1">Investigate together</label><label for="alarms-2" data-i="2">Close it</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/alarms--one.db669b892a.jpg" src="films/alarms--one.d3e71546a2.mp4" aria-label="A checkout alarm fires at the top of the Open alarms, and N on it starts an investigation spawn that reads the error rate. The spawn waits on the automations row with a bell."></video>
+      <figcaption><b>Investigate one alarm</b><span>0:22</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>An alarm fires</li><li>Investigate it</li><li>On the automations row</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/alarms--together.1157da822d.jpg" src="films/alarms--together.aff93db9ff.mp4" aria-label="Three alarms that came in with the same deploy are ticked and sent to one investigation. The one spawn reads all three and finds the cause they share."></video>
+      <figcaption><b>Investigate together</b><span>0:18</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The open alarms</li><li>Tick three</li><li>One investigation</li><li>One cause</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/alarms--close.ed33bcf8f6.jpg" src="films/alarms--close.ec11498fec.mp4" aria-label="The checkout alarm&#39;s investigation names the failing payment call. A closes the alarm as Resolved, and it moves from the Open alarms to the Resolved ones."></video>
+      <figcaption><b>Close it</b><span>0:23</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The alarm</li><li>What it found</li><li>Close it</li><li>Resolved</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="chapter" id="part-5">
+  <header class="chapter-head">
+    <div class="part">Part 5 of 7</div>
+    <h2>Your repositories</h2>
+    <p>The history and the shape of the code the agents work on.</p>
+  </header>
+  <article class="feature" id="commit-graph">
     <input class="pick" type="radio" name="commit-graph" id="commit-graph-0" data-i="0" checked aria-label="Branches and spawns"><input class="pick" type="radio" name="commit-graph" id="commit-graph-1" data-i="1" aria-label="Pull requests"><input class="pick" type="radio" name="commit-graph" id="commit-graph-2" data-i="2" aria-label="A new branch">
-    <div class="words">
-      <div class="num">23 / 25<span>Everyday work</span></div>
-      <h2>Commit graph</h2>
-      <p class="what">See every branch, worktree and pull request of a repository beside the spawns working on them.</p>
-      <p class="about">The commit graph draws a repository&#39;s history beside the spawns working on it: main, each spawn&#39;s branch in its own worktree, and the commits each made. Its pull requests open with their description and changed files. From any commit you can make a new branch in its own worktree and start a spawn on it.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="commit-graph-0" data-i="0">Branches and spawns</label><label for="commit-graph-1" data-i="1">Pull requests</label><label for="commit-graph-2" data-i="2">A new branch</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/commit-graph--branches.931d60752f.jpg" src="films/commit-graph--branches.17454a0142.mp4" aria-label="G on the shop-api repository draws its history: main, and the branches four spawns work on, each in its own worktree named after the spawn, with the commits each one made."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Branches and spawns</b><span>0:15</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The graph</li><li>The commits</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/commit-graph--pulls.fbeece9af5.jpg" src="films/commit-graph--pulls.f28d476d7f.mp4" aria-label="P on shop-api lists its three open pull requests on Gitea with who opened each. The price list cache opens with its description, its three changed files and Merge."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Pull requests</b><span>0:14</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Open pull requests</li><li>One of them</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/commit-graph--new-branch.0393105f00.jpg" src="films/commit-graph--new-branch.3ad065a388.mp4" aria-label="A commit is picked on shop-api&#39;s graph and W makes the branch spawn/refund-gift-cards from it in its own worktree. With Start a spawn ticked, New spawn opens in that worktree."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>A new branch</b><span>0:13</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Pick a commit</li><li>New branch</li><li>A spawn on it</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="repo-map">
+    <div class="num">17 / 25</div>
+    <h3>Commit graph</h3>
+    <p class="what">See every branch, worktree and pull request of a repository beside the spawns working on them.</p>
+    <p class="about">The commit graph draws a repository&#39;s history beside the spawns working on it: main, each spawn&#39;s branch in its own worktree, and the commits each made. Its pull requests open with their description and changed files. From any commit you can make a new branch in its own worktree and start a spawn on it.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="commit-graph-0" data-i="0">Branches and spawns</label><label for="commit-graph-1" data-i="1">Pull requests</label><label for="commit-graph-2" data-i="2">A new branch</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/commit-graph--branches.931d60752f.jpg" src="films/commit-graph--branches.17454a0142.mp4" aria-label="G on the shop-api repository draws its history: main, and the branches four spawns work on, each in its own worktree named after the spawn, with the commits each one made."></video>
+      <figcaption><b>Branches and spawns</b><span>0:15</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The graph</li><li>The commits</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/commit-graph--pulls.fbeece9af5.jpg" src="films/commit-graph--pulls.f28d476d7f.mp4" aria-label="P on shop-api lists its three open pull requests on Gitea with who opened each. The price list cache opens with its description, its three changed files and Merge."></video>
+      <figcaption><b>Pull requests</b><span>0:14</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Open pull requests</li><li>One of them</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/commit-graph--new-branch.0393105f00.jpg" src="films/commit-graph--new-branch.3ad065a388.mp4" aria-label="A commit is picked on shop-api&#39;s graph and W makes the branch spawn/refund-gift-cards from it in its own worktree. With Start a spawn ticked, New spawn opens in that worktree."></video>
+      <figcaption><b>A new branch</b><span>0:13</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Pick a commit</li><li>New branch</li><li>A spawn on it</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="repo-map">
     <input class="pick" type="radio" name="repo-map" id="repo-map-0" data-i="0" checked aria-label="The whole repository"><input class="pick" type="radio" name="repo-map" id="repo-map-1" data-i="1" aria-label="Into one part">
-    <div class="words">
-      <div class="num">24 / 25<span>Everyday work</span></div>
-      <h2>Repo map</h2>
-      <p class="what">See a repository&#39;s code as a map of its parts and what depends on what, read through a language server.</p>
-      <p class="about">The repo map draws a repository as a map of its folders, each sized by its code, with lines between the folders that use each other. Opening a folder shows its files and every file elsewhere that imports them, so you can see what a change would touch before an agent makes it.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="repo-map-0" data-i="0">The whole repository</label><label for="repo-map-1" data-i="1">Into one part</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/repo-map--whole.fb98e7fbcd.jpg" src="films/repo-map--whole.370ca57feb.mp4" aria-label="H on the shop-api repository draws its folders as a map, each sized by its code, with lines between the folders that use each other. The checkout folder is picked and shows its size and its biggest files."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The whole repository</b><span>0:16</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The map</li><li>One folder</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/repo-map--part.3d822cae13.jpg" src="films/repo-map--part.2adf42c8c1.mp4" aria-label="The payments folder is opened on the map of shop-api. It shows its own files, such as charge.ts and refund.ts, and every file elsewhere that imports them, from the checkout to the routes and the tests."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Into one part</b><span>0:09</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Pick a folder</li><li>Open it</li></ol>
-      </figure>
-    </div>
-  </section>
-  <section class="feature" id="out-of-office">
+    <div class="num">18 / 25</div>
+    <h3>Repo map</h3>
+    <p class="what">See a repository&#39;s code as a map of its parts and what depends on what, read through a language server.</p>
+    <p class="about">The repo map draws a repository as a map of its folders, each sized by its code, with lines between the folders that use each other. Opening a folder shows its files and every file elsewhere that imports them, so you can see what a change would touch before an agent makes it.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="repo-map-0" data-i="0">The whole repository</label><label for="repo-map-1" data-i="1">Into one part</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/repo-map--whole.fb98e7fbcd.jpg" src="films/repo-map--whole.370ca57feb.mp4" aria-label="H on the shop-api repository draws its folders as a map, each sized by its code, with lines between the folders that use each other. The checkout folder is picked and shows its size and its biggest files."></video>
+      <figcaption><b>The whole repository</b><span>0:16</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The map</li><li>One folder</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/repo-map--part.3d822cae13.jpg" src="films/repo-map--part.2adf42c8c1.mp4" aria-label="The payments folder is opened on the map of shop-api. It shows its own files, such as charge.ts and refund.ts, and every file elsewhere that imports them, from the checkout to the routes and the tests."></video>
+      <figcaption><b>Into one part</b><span>0:09</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Pick a folder</li><li>Open it</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="chapter" id="part-6">
+  <header class="chapter-head">
+    <div class="part">Part 6 of 7</div>
+    <h2>Logins and machines</h2>
+    <p>The subscriptions agents run under and the computers they run on.</p>
+  </header>
+  <article class="feature" id="accounts">
+    <input class="pick" type="radio" name="accounts" id="accounts-0" data-i="0" checked aria-label="Add a login"><input class="pick" type="radio" name="accounts" id="accounts-1" data-i="1" aria-label="Load balancing">
+    <div class="num">19 / 25</div>
+    <h3>Accounts</h3>
+    <p class="what">Run spawns across several Claude Code and Codex logins, and new work goes to the login with room.</p>
+    <p class="about">imba can run spawns under several Claude Code and Codex logins at once. Agent usage shows each login&#39;s use of its five hours and its week, and a new login is added and signed in from there. New spawns go to the login with the most room, and when a few logins carry most of the work, imba spreads the spawns across them all.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="accounts-0" data-i="0">Add a login</label><label for="accounts-1" data-i="1">Load balancing</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/accounts--add-login.91218195e1.jpg" src="films/accounts--add-login.9d3f19f61d.mp4" aria-label="Agent usage lists the two Claude Code logins the shop&#39;s spawns run under. Add account names a third, seat-3, and once it is signed in it reads beside the others with its own five hours and week."></video>
+      <figcaption><b>Add a login</b><span>0:18</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The logins</li><li>Add one</li><li>Its figures</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/accounts--balance.d6621d8690.jpg" src="films/accounts--balance.5e12cabff7.mp4" aria-label="Two of the shop&#39;s logins carry nearly every spawn while the others sit idle. Spread shows each login&#39;s count now and after, and one press moves each spawn to the login with room."></video>
+      <figcaption><b>Load balancing</b><span>0:20</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Every login</li><li>Spread them</li><li>Moved</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="machine-browser">
+    <input class="pick" type="radio" name="machine-browser" id="machine-browser-0" data-i="0" checked aria-label="The agent drives"><input class="pick" type="radio" name="machine-browser" id="machine-browser-1" data-i="1" aria-label="You take over">
+    <div class="num">20 / 25</div>
+    <h3>Machine browser</h3>
+    <p class="what">The agent drives a real browser on the machine while you watch, and you can take over at any moment.</p>
+    <p class="about">The agent can drive a real browser on the machine, and its chip shows the page live while it works. You watch it type, click and pay as a shopper would. A click on the page takes the wheel from the agent, so you can fix a field yourself and hand it back, and the agent carries on from there.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="machine-browser-0" data-i="0">The agent drives</label><label for="machine-browser-1" data-i="1">You take over</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/machine-browser--drives.794017c04d.jpg" src="films/machine-browser--drives.5c7d3c139d.mp4" aria-label="The agent&#39;s own browser on the build host is pinned as Storefront checkout. Ctrl+1 opens it live: the agent types the gift card&#39;s code, applies it, pays €16.30, and the bar over the page names each step as it happens."></video>
+      <figcaption><b>The agent drives</b><span>0:29</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The live page</li><li>Types the code</li><li>Applies it</li><li>Pays</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/machine-browser--take-over.6de92f4ac6.jpg" src="films/machine-browser--take-over.d875bdf274.mp4" aria-label="The agent types the code with an O where the card has a Q, and the shop refuses it. A click on the code field takes the wheel, the code is mended, Ctrl+/ hands the wheel back, and the agent applies the card and pays."></video>
+      <figcaption><b>You take over</b><span>0:30</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The live page</li><li>A wrong code</li><li>Take the wheel</li><li>Mend the code</li><li>Hand it back</li><li>The agent pays</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="support-machines">
+    <input class="pick" type="radio" name="support-machines" id="support-machines-0" data-i="0" checked aria-label="Each machine at a glance"><input class="pick" type="radio" name="support-machines" id="support-machines-1" data-i="1" aria-label="A build somewhere else">
+    <div class="num">21 / 25</div>
+    <h3>Support machines</h3>
+    <p class="what">Other computers carry builds and containers, so the main machine stays free.</p>
+    <p class="about">Support machines are other computers imba can use for builds and containers, so the main machine stays free for the agents. The machine monitor shows each one&#39;s processor, memory, load, containers and disks side by side. A spawn&#39;s test containers can run on a support machine, and the Docker manager switches to it to show them.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="support-machines-0" data-i="0">Each machine at a glance</label><label for="support-machines-1" data-i="1">A build somewhere else</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/support-machines--glance.ff088aff2d.jpg" src="films/support-machines--glance.98998dd251.mp4" aria-label="The machine monitor reads the shop&#39;s server and its two support machines, tests-1 and images-1, side by side. A press shows one machine&#39;s processor, memory, load, containers and disks, and M walks on to the next."></video>
+      <figcaption><b>Each machine at a glance</b><span>0:17</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Every machine</li><li>One machine</li><li>The next one</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/support-machines--elsewhere.9b99d4da36.jpg" src="films/support-machines--elsewhere.b71df40ef1.mp4" aria-label="The Docker manager opens on the shop&#39;s server, then switches to tests-1. There a spawn&#39;s checkout tests run in four containers of their own, beside the payments run that finished twenty minutes earlier."></video>
+      <figcaption><b>A build somewhere else</b><span>0:12</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>This machine</li><li>The test machine</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="machine-panels">
+    <input class="pick" type="radio" name="machine-panels" id="machine-panels-0" data-i="0" checked aria-label="Agent usage"><input class="pick" type="radio" name="machine-panels" id="machine-panels-1" data-i="1" aria-label="Docker"><input class="pick" type="radio" name="machine-panels" id="machine-panels-2" data-i="2" aria-label="Machine monitor">
+    <div class="num">22 / 25</div>
+    <h3>Machine panels</h3>
+    <p class="what">See what the agents cost and what the machine is doing, without leaving imba.</p>
+    <p class="about">Three panels show what the agents cost and what the machine is doing. Agent usage shows each login&#39;s use and where the week&#39;s tokens went. The Docker manager lists the containers with their logs and restarts one. The machine monitor shows processor, memory, disks and the processes using them.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="machine-panels-0" data-i="0">Agent usage</label><label for="machine-panels-1" data-i="1">Docker</label><label for="machine-panels-2" data-i="2">Machine monitor</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/machine-panels--usage.8e6d93a715.jpg" src="films/machine-panels--usage.49970f6cd2.mp4" aria-label="Agent usage shows each Claude login&#39;s use of its five hours and its week. The 7 days view then splits the week&#39;s tokens into file reads, commands, writing and the rest, and lists the spawns that used the most."></video>
+      <figcaption><b>Agent usage</b><span>0:10</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Each login</li><li>Where the week went</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/machine-panels--docker.1b3a36b6bd.jpg" src="films/machine-panels--docker.348fade1cb.mp4" aria-label="The Docker manager lists the shop&#39;s containers by compose project with what each uses. The API container opens on its logs, a failed gift card refund among them, and is restarted."></video>
+      <figcaption><b>Docker</b><span>0:17</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The containers</li><li>Its logs</li><li>Restart</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/machine-panels--monitor.fee381a410.jpg" src="films/machine-panels--monitor.adde27be99.mp4" aria-label="The machine monitor shows the server&#39;s processor, memory, each core, its graphics card and its disks, then the heaviest processes, sorted by memory and back by processor."></video>
+      <figcaption><b>Machine monitor</b><span>0:14</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The machine</li><li>The processes</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="chapter" id="part-7">
+  <header class="chapter-head">
+    <div class="part">Part 7 of 7</div>
+    <h2>Away from the desk</h2>
+    <p>Drawing by hand, imba on a phone, and stepping away for a while.</p>
+  </header>
+  <article class="feature" id="pen">
+    <input class="pick" type="radio" name="pen" id="pen-0" data-i="0" checked aria-label="An idea in the browser"><input class="pick" type="radio" name="pen" id="pen-1" data-i="1" aria-label="A screen on a tablet">
+    <div class="num">23 / 25</div>
+    <h3>Pen</h3>
+    <p class="what">Draw an idea or a screen by hand, and the agent reads the drawing.</p>
+    <p class="about">Some ideas are quicker to draw than to write. The sketch sheet takes a pen or a mouse, and you send the drawing as an idea or as a screen, with a note. An idea comes back as ordered steps the agent starts on. A screen is found in the code and comes back as a mock.</p>
+    <p class="films-head">2 films</p>
+    <div class="bar" role="presentation"><label for="pen-0" data-i="0">An idea in the browser</label><label for="pen-1" data-i="1">A screen on a tablet</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/pen--idea.0c84de5f35.jpg" src="films/pen--idea.7e0c479de6.mp4" aria-label="On the spawn rounding the shop&#39;s tax, Ctrl+H opens the sketch sheet. Three boxes joined by arrows are drawn with the pen and sent as an idea with a note, and the agent writes them out as three steps in order and starts on the second."></video>
+      <figcaption><b>An idea in the browser</b><span>0:34</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Draw it</li><li>Send as an idea</li><li>The agent starts</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/pen--screen.dae3f53382.jpg" src="films/pen--screen.1e0c4957de.mp4" aria-label="The checkout is drawn by hand with its basket lines and total, and a new gift card balance line ringed in colour. Sent as a screen, the agent finds the order summary in the shop&#39;s code and answers with a mock of it."></video>
+      <figcaption><b>A screen on a tablet</b><span>0:27</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Draw the screen</li><li>Send as a screen</li><li>The agent&#39;s mock</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="every-screen">
+    <input class="pick" type="radio" name="every-screen" id="every-screen-0" data-i="0" checked aria-label="The desktop app"><input class="pick" type="radio" name="every-screen" id="every-screen-1" data-i="1" aria-label="The phone app"><input class="pick" type="radio" name="every-screen" id="every-screen-2" data-i="2" aria-label="First start">
+    <div class="num">24 / 25</div>
+    <h3>Every screen</h3>
+    <p class="what">One server, reached from a desktop app, a phone app or any browser.</p>
+    <p class="about">imba is one server on your machine. A browser, the desktop app and the phone app all show the same spawns from it. The apps carry no server address: each asks for it once on its first start and loads imba from that server from then on.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="every-screen-0" data-i="0">The desktop app</label><label for="every-screen-1" data-i="1">The phone app</label><label for="every-screen-2" data-i="2">First start</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/every-screen--desktop-app.1f1ac387a0.jpg" src="films/every-screen--desktop-app.38ffe554f6.mp4" aria-label="The desktop app, pointed at the shop&#39;s imba server, shows the same spawns list a browser does. A spawn opens from its number, and Settings names the server and says it is the desktop app."></video>
+      <figcaption><b>The desktop app</b><span>0:11</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The spawns</li><li>A spawn</li><li>Which server</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/every-screen--phone-app.e47972165d.jpg" src="films/every-screen--phone-app.e76bafdca6.mp4" aria-label="The Android app in Ultrafocus shows only the spawns waiting on you. The first one asks whether to ship to staging, gets its answer, and goes back to work."></video>
+      <figcaption><b>The phone app</b><span>0:15</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Waiting on you</li><li>The question</li><li>The answer</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/every-screen--first-start.d15cedc36f.jpg" src="films/every-screen--first-start.b0abadfb00.mp4" aria-label="A new app asks once for the server address, checks it, and loads imba from it. Settings then names the server, with Change server beside it."></video>
+      <figcaption><b>First start</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The address</li><li>imba opens</li><li>Which server</li></ol>
+    </figure>
+  </article>
+  <article class="feature" id="out-of-office">
     <input class="pick" type="radio" name="out-of-office" id="out-of-office-0" data-i="0" checked aria-label="The away screen"><input class="pick" type="radio" name="out-of-office" id="out-of-office-1" data-i="1" aria-label="Pause it"><input class="pick" type="radio" name="out-of-office" id="out-of-office-2" data-i="2" aria-label="Note a task while away">
-    <div class="words">
-      <div class="num">25 / 25<span>Everyday work</span></div>
-      <h2>Out of Office</h2>
-      <p class="what">Step away on a schedule: imba mutes its notifications, covers the app with an away screen, and shows only what still needs someone.</p>
-      <p class="about">Out of Office covers imba with an away screen on a schedule you set. The screen shows only what still needs someone: alarms nobody is on, alarms being handled, and the work still running. You can pause it for a while to work normally, and note a task for later without leaving it.</p>
-      
-    </div>
-    <div class="films">
-      <div class="bar" role="presentation"><label for="out-of-office-0" data-i="0">The away screen</label><label for="out-of-office-1" data-i="1">Pause it</label><label for="out-of-office-2" data-i="2">Note a task while away</label></div>
-      <figure class="film" data-i="0">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/out-of-office--away.70765269f7.jpg" src="films/out-of-office--away.42a14d97e1.mp4" aria-label="At 18:00 the away screen covers the app. It splits the alarms into Nobody on it and Being handled, with the investigation under its alarm, and lists the work still running."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>The away screen</b><span>0:21</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>A working afternoon</li><li>The away screen</li><li>Who is on what</li></ol>
-      </figure>
-      <figure class="film" data-i="1">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/out-of-office--pause.eaecd6aae0.jpg" src="films/out-of-office--pause.82b367db0c.mp4" aria-label="A opens Pause Out of Office, which counts down before offering 15 minutes, 1 hour, 3 hours or a time of your own. 1 hour brings the app back."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Pause it</b><span>0:16</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>Away</li><li>The count</li><li>How long</li><li>The app is back</li></ol>
-      </figure>
-      <figure class="film" data-i="2">
-        <div class="players">
-          <video controls playsinline muted preload="none" poster="films/out-of-office--task.f870bd16a1.jpg" src="films/out-of-office--task.6e63d28e3d.mp4" aria-label="U opens the coding queue on the away screen and N opens New task. &quot;Check the refund email on Monday&quot; is saved to the queue without leaving the away screen."></video>
-        </div>
-        <figcaption>
-          <div class="head"><b>Note a task while away</b><span>0:19</span></div>
-        </figcaption>
-        <p class="in-film">In this film</p>
-        <ol class="steps"><li>The task list</li><li>Add a task</li><li>Saved</li></ol>
-      </figure>
-    </div>
-  </section>
-  <p class="note">Recorded in imba. Every spawn, repository and person in these films is made up.</p>
+    <div class="num">25 / 25</div>
+    <h3>Out of Office</h3>
+    <p class="what">Step away on a schedule: imba mutes its notifications, covers the app with an away screen, and shows only what still needs someone.</p>
+    <p class="about">Out of Office covers imba with an away screen on a schedule you set. The screen shows only what still needs someone: alarms nobody is on, alarms being handled, and the work still running. You can pause it for a while to work normally, and note a task for later without leaving it.</p>
+    <p class="films-head">3 films</p>
+    <div class="bar" role="presentation"><label for="out-of-office-0" data-i="0">The away screen</label><label for="out-of-office-1" data-i="1">Pause it</label><label for="out-of-office-2" data-i="2">Note a task while away</label></div>
+    <figure class="film" data-i="0">
+      <video controls playsinline muted preload="none" poster="films/out-of-office--away.70765269f7.jpg" src="films/out-of-office--away.42a14d97e1.mp4" aria-label="At 18:00 the away screen covers the app. It splits the alarms into Nobody on it and Being handled, with the investigation under its alarm, and lists the work still running."></video>
+      <figcaption><b>The away screen</b><span>0:21</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>A working afternoon</li><li>The away screen</li><li>Who is on what</li></ol>
+    </figure>
+    <figure class="film" data-i="1">
+      <video controls playsinline muted preload="none" poster="films/out-of-office--pause.eaecd6aae0.jpg" src="films/out-of-office--pause.82b367db0c.mp4" aria-label="A opens Pause Out of Office, which counts down before offering 15 minutes, 1 hour, 3 hours or a time of your own. 1 hour brings the app back."></video>
+      <figcaption><b>Pause it</b><span>0:16</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>Away</li><li>The count</li><li>How long</li><li>The app is back</li></ol>
+    </figure>
+    <figure class="film" data-i="2">
+      <video controls playsinline muted preload="none" poster="films/out-of-office--task.f870bd16a1.jpg" src="films/out-of-office--task.6e63d28e3d.mp4" aria-label="U opens the coding queue on the away screen and N opens New task. &quot;Check the refund email on Monday&quot; is saved to the queue without leaving the away screen."></video>
+      <figcaption><b>Note a task while away</b><span>0:19</span></figcaption>
+      <p class="in-film">In this film</p>
+      <ol class="steps"><li>The task list</li><li>Add a task</li><li>Saved</li></ol>
+    </figure>
+  </article>
+</section>
+<section class="words" id="words">
+  <h2>Words on this page</h2>
+  <dl><div><dt>Agent</dt><dd>An AI program that writes and changes code by itself when you give it a task.</dd></div><div><dt>Claude Code</dt><dd>Anthropic&#39;s coding agent.</dd></div><div><dt>Codex</dt><dd>OpenAI&#39;s coding agent.</dd></div><div><dt>Spawn</dt><dd>One agent working on one task in imba, with its own conversation.</dd></div><div><dt>Repository</dt><dd>A project&#39;s folder of code, kept with its whole history.</dd></div><div><dt>Turn</dt><dd>One round of work: you send a message, the agent works, then it answers.</dd></div><div><dt>Plan</dt><dd>What the agent means to do, written down for you to approve before it starts.</dd></div><div><dt>Mock</dt><dd>A drawing of a screen before it is built.</dd></div><div><dt>Card</dt><dd>A result drawn as a picture or a table in the conversation, such as a review.</dd></div><div><dt>Pin</dt><dd>A file, page or terminal kept one tap away above where you write.</dd></div><div><dt>Branch and worktree</dt><dd>A separate line of work in a repository, in a folder of its own, so agents do not get in each other&#39;s way.</dd></div><div><dt>Login</dt><dd>A Claude or ChatGPT subscription that agents run under.</dd></div><div><dt>Container</dt><dd>A program, such as a database or a test run, kept in a box of its own by Docker.</dd></div><div><dt>Alarm</dt><dd>A warning from a monitoring tool such as Grafana that something in the running shop is wrong.</dd></div></dl>
+</section>
+<p class="note">Recorded in imba. Every spawn, repository and person in these films is made up.</p>
 </main>
-<script type="module" src="player.d3d4e60238.js"></script>
+</div>
+<script type="module" src="player.e32cc18518.js"></script>
 </body>
 </html>

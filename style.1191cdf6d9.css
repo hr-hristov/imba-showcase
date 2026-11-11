@@ -1,0 +1,178 @@
+/* The type of the imba website on a white page, so the films' light theme sits
+   on the page without a dark frame. The two fonts are the website's, kept in
+   fonts/. */
+@font-face {
+  font-family: 'Archivo Variable';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 100 900;
+  font-stretch: 62% 125%;
+  src: url(fonts/archivo-latin-wdth-normal.e3a28eade2.woff2) format('woff2-variations');
+}
+@font-face {
+  font-family: 'Silkscreen';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(fonts/silkscreen-latin-400-normal.e6c72ea470.woff2) format('woff2');
+}
+
+:root {
+  --page: #ffffff;
+  --panel: #f6f4f0;
+  --picked: #ebe7df;
+  --line: #e2ded6;
+  --ink: #17151d;
+  --muted: #4b4659;
+  --dim: #6c667d;
+  --signal: #d9480f;
+  --plan: #2563eb;
+  --sans: 'Archivo Variable', 'Archivo', system-ui, sans-serif;
+  --pixel: 'Silkscreen', ui-monospace, monospace;
+  --mono: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+  --gutter: clamp(18px, 4vw, 48px);
+  color-scheme: light;
+}
+
+* { box-sizing: border-box; }
+html { background: var(--page); scroll-behavior: smooth; }
+body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--sans); font-size: 17px; line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+a { color: inherit; }
+
+/* The contents in a rail on the left, the reading column beside it. */
+.layout { display: grid; grid-template-columns: 240px minmax(0, 1fr); gap: 64px; max-width: 1280px; margin: 0 auto; padding: 0 var(--gutter); }
+main { min-width: 0; max-width: 920px; padding: 40px 0 64px; }
+.rail { position: sticky; top: 0; align-self: start; max-height: 100vh; overflow-y: auto; padding: 40px 4px 40px 0; }
+.rail-head { margin-bottom: 14px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
+.part-links { margin-bottom: 16px; }
+.part-link { display: block; margin-bottom: 4px; font-size: 15px; font-weight: 700; color: var(--ink); text-decoration: none; }
+.part-links ol { list-style: none; margin: 0; padding: 0; }
+.part-links li a { display: flex; gap: 10px; padding: 3px 8px; margin-left: -8px; border-radius: 5px; font-size: 15px; line-height: 1.4; color: var(--muted); text-decoration: none; }
+.part-links li a span { flex: none; width: 22px; font: 600 14px/1.5 var(--mono); color: var(--dim); }
+.part-links a:hover { color: var(--signal); }
+.part-links li a.on { background: var(--panel); color: var(--ink); font-weight: 600; }
+.part-links li a.on span { color: var(--signal); }
+
+/* What imba is. */
+.hero { padding-bottom: 36px; }
+.brand { font-family: var(--pixel); font-size: 14px; letter-spacing: .14em; color: var(--signal); text-transform: uppercase; white-space: nowrap; }
+h1 { margin: 22px 0 14px; font-size: clamp(36px, 5vw, 60px); line-height: 1.04; font-weight: 800; letter-spacing: -.01em; }
+.lede { margin: 0 0 22px; font-size: 21px; line-height: 1.5; font-weight: 600; color: var(--ink); }
+.intro { margin: 0 0 14px; font-size: 18px; line-height: 1.65; color: var(--muted); max-width: 68ch; }
+
+/* How to read a feature: one framed strip of four cells. */
+.legend { padding: 28px 0 36px; border-top: 1px solid var(--line); }
+.legend h2, .words h2 { margin: 0 0 14px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
+.strip { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; background: var(--panel); }
+.strip li { padding: 14px 16px; border-left: 1px solid var(--line); font-size: 15px; line-height: 1.5; color: var(--muted); }
+.strip li:first-child { border-left: 0; }
+.strip b { display: block; margin-bottom: 4px; color: var(--ink); font-size: 16px; }
+.cell-n { display: block; font: 700 14px var(--mono); color: var(--signal); }
+.films-note { margin: 14px 0 0; font-size: 16px; line-height: 1.6; color: var(--muted); }
+.films-note a { color: var(--ink); text-underline-offset: 3px; }
+
+/* The contents on a narrow screen, folded into one box. */
+.toc { display: none; margin: 0 0 8px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.toc summary { padding: 12px 16px; font-size: 16px; font-weight: 700; cursor: pointer; }
+.toc[open] summary { border-bottom: 1px solid var(--line); }
+.toc .part-links, .toc > .part-link { margin: 14px 16px; }
+
+/* A part: its name and what it covers, then its features. */
+.chapter { padding-top: 48px; }
+.chapter-head { padding: 0 0 20px; border-bottom: 2px solid var(--ink); scroll-margin-top: 16px; }
+.part { font: 700 14px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--signal); }
+.chapter-head h2 { margin: 6px 0 6px; font-size: clamp(28px, 3.4vw, 40px); line-height: 1.1; font-weight: 800; }
+.chapter-head p { margin: 0; font-size: 19px; color: var(--muted); }
+
+/* One feature: its words, the names of its films, then the picked film. */
+.feature { padding: 36px 0 44px; border-bottom: 1px solid var(--line); scroll-margin-top: 16px; }
+.num { font: 700 14px var(--mono); letter-spacing: .1em; color: var(--signal); }
+.feature h3 { margin: 4px 0 10px; font-size: 30px; line-height: 1.15; font-weight: 800; }
+.what { margin: 0 0 12px; font-size: 19px; line-height: 1.45; font-weight: 600; color: var(--ink); max-width: 64ch; }
+.about { margin: 0; font-size: 17px; line-height: 1.7; color: var(--muted); max-width: 68ch; }
+
+/* The film chooser. Three names or fewer: one divided bar. More: ticked rows
+   in a box. Both are labels of one radio group, so the page switches films
+   without its script. */
+/* The radios stay fixed in the window, so the browser never scrolls to the
+   one a click picks: at the top of a long feature, it jumped the page up. */
+.pick { position: fixed; top: 0; left: 0; width: 1px; height: 1px; margin: 0; opacity: 0; pointer-events: none; }
+.films-head { margin: 24px 0 8px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
+.bar { display: flex; border: 1px solid var(--line); border-radius: 7px; overflow: hidden; background: var(--panel); }
+.bar label { flex: 1 1 0; min-width: 0; text-align: center; font-size: 15px; font-weight: 600; color: var(--muted); padding: 10px 12px; border-left: 1px solid var(--line); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; cursor: pointer; }
+.bar label:first-child { border-left: 0; }
+.list { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); border: 1px solid var(--line); border-radius: 7px; overflow: hidden; background: var(--panel); }
+.list label { display: flex; gap: 10px; align-items: center; margin: 0 -1px -1px 0; padding: 10px 14px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); font-size: 15px; font-weight: 600; color: var(--muted); cursor: pointer; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.list label::before { content: ''; flex: none; width: 8px; height: 8px; border-radius: 50%; border: 1px solid var(--dim); }
+.bar label:hover, .list label:hover { color: var(--ink); }
+.pick:focus-visible + * { outline: 2px solid var(--plan); }
+
+/* Each film plays its desktop cut, on a phone too. */
+.film { display: none; margin: 12px 0 0; }
+.film video { display: block; width: 100%; height: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; box-shadow: 0 1px 2px rgba(23, 21, 29, .06), 0 8px 24px rgba(23, 21, 29, .06); }
+.film figcaption { display: flex; gap: 10px; align-items: baseline; margin-top: 12px; font-size: 15px; color: var(--dim); }
+.film figcaption b { font-size: 17px; font-weight: 700; color: var(--ink); }
+.in-film { margin: 8px 0 2px; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--dim); }
+.steps { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 0; font-size: 16px; color: var(--muted); }
+.steps li + li::before { content: '→'; margin: 0 8px; color: var(--dim); }
+
+/* The words a newcomer may not know. */
+.words { padding: 48px 0 8px; scroll-margin-top: 16px; }
+.words dl { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 32px; }
+.words dt { font-size: 16px; font-weight: 700; color: var(--ink); }
+.words dd { margin: 2px 0 0; font-size: 16px; line-height: 1.55; color: var(--muted); }
+
+.note { margin-top: 32px; padding-top: 18px; border-top: 1px solid var(--line); font-size: 15px; color: var(--muted); }
+
+@media (max-width: 1099px) {
+  .layout { display: block; }
+  .rail { display: none; }
+  main { margin: 0 auto; }
+  .toc { display: block; }
+}
+@media (max-width: 760px) {
+  main { padding-top: 28px; }
+  .lede { font-size: 19px; }
+  .intro { font-size: 17px; }
+  .strip { grid-template-columns: minmax(0, 1fr); }
+  .strip li { display: grid; grid-template-columns: 26px minmax(0, 1fr); column-gap: 8px; border-left: 0; border-top: 1px solid var(--line); }
+  .strip li:first-child { border-top: 0; }
+  .strip li .cell-n { grid-row: span 2; }
+  .strip li b, .strip li span:last-child { grid-column: 2; }
+  .feature h3 { font-size: 26px; }
+  .what { font-size: 18px; }
+  /* Film names too long to share a row stand as one even column. */
+  .bar { flex-direction: column; }
+  .bar label { flex: none; text-align: left; border-left: 0; border-top: 1px solid var(--line); }
+  .bar label:first-child { border-top: 0; }
+  .list { grid-template-columns: minmax(0, 1fr); }
+  .words dl { grid-template-columns: minmax(0, 1fr); }
+}
+
+.feature:has(.pick[data-i="0"]:checked) .film[data-i="0"] { display: block; }
+.feature:has(.pick[data-i="0"]:checked) label[data-i="0"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="0"]:checked) .list label[data-i="0"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="1"]:checked) .film[data-i="1"] { display: block; }
+.feature:has(.pick[data-i="1"]:checked) label[data-i="1"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="1"]:checked) .list label[data-i="1"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="2"]:checked) .film[data-i="2"] { display: block; }
+.feature:has(.pick[data-i="2"]:checked) label[data-i="2"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="2"]:checked) .list label[data-i="2"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="3"]:checked) .film[data-i="3"] { display: block; }
+.feature:has(.pick[data-i="3"]:checked) label[data-i="3"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="3"]:checked) .list label[data-i="3"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="4"]:checked) .film[data-i="4"] { display: block; }
+.feature:has(.pick[data-i="4"]:checked) label[data-i="4"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="4"]:checked) .list label[data-i="4"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="5"]:checked) .film[data-i="5"] { display: block; }
+.feature:has(.pick[data-i="5"]:checked) label[data-i="5"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="5"]:checked) .list label[data-i="5"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="6"]:checked) .film[data-i="6"] { display: block; }
+.feature:has(.pick[data-i="6"]:checked) label[data-i="6"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="6"]:checked) .list label[data-i="6"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="7"]:checked) .film[data-i="7"] { display: block; }
+.feature:has(.pick[data-i="7"]:checked) label[data-i="7"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="7"]:checked) .list label[data-i="7"]::before { background: var(--signal); border-color: var(--signal); }
+.feature:has(.pick[data-i="8"]:checked) .film[data-i="8"] { display: block; }
+.feature:has(.pick[data-i="8"]:checked) label[data-i="8"] { color: var(--ink); background: var(--picked); }
+.feature:has(.pick[data-i="8"]:checked) .list label[data-i="8"]::before { background: var(--signal); border-color: var(--signal); }
