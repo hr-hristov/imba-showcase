@@ -116,6 +116,24 @@ h1 { margin: 22px 0 14px; font-size: clamp(36px, 5vw, 60px); line-height: 1.04; 
 .steps { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 0; font-size: 16px; color: var(--muted); }
 .steps li + li::before { content: '→'; margin: 0 8px; color: var(--dim); }
 
+/* A workflow: its one film always shows, and its steps stand as a line drawn
+   through one row per step, each row linking to the feature that explains it. */
+.workflow .film { display: block; margin-top: 22px; }
+.line { list-style: none; margin: 0; padding: 0; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); }
+.line li { position: relative; display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 12px; align-items: baseline; padding: 11px 16px 11px 14px; border-top: 1px solid var(--line); }
+.line li:first-child { border-top: 0; }
+.line li::before { content: ''; position: absolute; left: 30px; top: 0; bottom: 0; width: 2px; background: #d3cdc2; }
+/* The line runs from the first dot's centre to the last one's. */
+.line li:first-child::before { top: 21px; }
+.line li:last-child::before { bottom: auto; height: 21px; }
+.line li:only-child::before { display: none; }
+.line .dot { position: relative; z-index: 1; justify-self: center; width: 12px; height: 12px; margin-top: 4px; border-radius: 50%; background: var(--page); border: 2px solid var(--signal); }
+.line .sn { font-size: 16px; font-weight: 700; color: var(--ink); }
+.line .sn span { display: block; font-size: 15px; font-weight: 400; line-height: 1.5; color: var(--muted); }
+.line .go { font: 600 14px var(--mono); color: var(--muted); white-space: nowrap; text-decoration: none; }
+.line .go em { font-style: normal; color: var(--signal); margin-right: 6px; }
+.line .go:hover { color: var(--signal); }
+
 /* The words a newcomer may not know. */
 .words { padding: 48px 0 8px; scroll-margin-top: 16px; }
 .words dl { margin: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 32px; }
@@ -147,6 +165,10 @@ h1 { margin: 22px 0 14px; font-size: clamp(36px, 5vw, 60px); line-height: 1.04; 
   .bar label:first-child { border-top: 0; }
   .list { grid-template-columns: minmax(0, 1fr); }
   .words dl { grid-template-columns: minmax(0, 1fr); }
+  /* The feature link stands under its step. */
+  .line li { grid-template-columns: 28px minmax(0, 1fr); padding: 10px 12px 10px 10px; }
+  .line li::before { left: 23px; }
+  .line .go { grid-column: 2; font-size: 13px; }
 }
 
 .feature:has(.pick[data-i="0"]:checked) .film[data-i="0"] { display: block; }
